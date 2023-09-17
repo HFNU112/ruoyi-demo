@@ -1,0 +1,38 @@
+{
+  "name": "PJ20230830001",
+  "topTitle": "A0001中高管人员领导力360°反馈-高级经理",
+  "problems": {
+    "firstPropertyList": [
+      {
+        "firstTitle": "一、被评人在“全局思维”方面的表现：",
+        "secondPropertyList": [
+          {
+            "secondTitle": "1.在相关业务领域寻求解决问题的方法时，能够考虑解决方案在短期或中期对于部门或公司的意义和影响。",
+            "options": "0"
+          },
+          {
+            "secondTitle": "2.理解公司经营目标的关联，在决策中充分考虑与目标的一致性。",
+            "options": "1"
+          }
+        ]
+      },
+      {
+        "firstTitle": "二、被评人在“战略规划”方面的表现：",
+        "secondPropertyList": [
+          {
+            "secondTitle": "1.掌握公司总体战略及部门工作目标。",
+            "options": "2"
+          },
+          {
+            "secondTitle": "2.能将团队目标分解为具体的实施步骤，并确定每一步完成的时间期限。",
+            "options": "3"
+          }
+        ]
+      }
+    ],
+    "suggest": "期待更好的建议！",
+    "comment": "给出你的意见！"
+  },
+  "relationGroupId": "620ba71be486d14a92668da5982492e3d413c4e72ddbce06",
+  "centerId": "620ba71be486d14a5e0b7508743e3c8da064d885bc865cf4"
+}
