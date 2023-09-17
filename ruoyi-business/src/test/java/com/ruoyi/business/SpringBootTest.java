@@ -25,11 +25,13 @@ import static com.ruoyi.business.utils.JsonToExcelUtils.toExcelByLocalJSONFile;
 public class SpringBootTest {
 
      @Test
-    public void testToExcelByJson(){
+    public void testToExcelByJson() throws IOException {
+         // 读取数据库的结果数据（json格式）
          String jsonPath = "C:\\Users\\29428\\Desktop\\data.json";
          String savePath = "C:\\Users\\29428\\Desktop";
          String fileName = "test";
-         toExcelByLocalJSONFile(jsonPath, savePath, fileName);
+         // 将json数据写入到excel
+         toExcelByLocalJSONFile(jsonPath, savePath, fileName); //传递的json字符串；保存json数据的位置；文件名
      }
 
 }

@@ -1,6 +1,7 @@
 package com.ruoyi.business.utils;
 
 import com.alibaba.fastjson2.*;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -21,6 +22,7 @@ import java.util.Map;
  * @author: Husp
  * @date: 2023/9/11 22:32
  */
+@Slf4j
 public class JsonToExcelUtils {
 
     /**
@@ -43,7 +45,7 @@ public class JsonToExcelUtils {
     /**
      * json字符串 转 excel
      */
-    public static void toExcelByString(String jsonStr, String savePath, String fileName) {
+    public static void toExcelByString(String jsonStr, String savePath, String fileName) throws IOException {
         assert JSON.isValid(jsonStr) : "字符串: " + jsonStr + " 不是标准的JSON字符串";
         toExcelByJSONObject(JSONObject.parseObject(jsonStr), savePath, fileName);
     }
@@ -51,107 +53,63 @@ public class JsonToExcelUtils {
     /**
      * jsonObect导出到excel
      */
-    public static void toExcelByJSONObject(JSONObject jsonObject, String savePath, String fileName) {
+    public static void toExcelByJSONObject(JSONObject jsonObject, String savePath, String fileName) throws IOException {
+        Object name = jsonObject.get("name");
+        Object topTitle = jsonObject.get("topTitle");
+        JSONArray problemArray = jsonObject.getJSONObject("problems").getJSONArray("firstPropertyList");
+        Object suggest = jsonObject.getJSONObject("problems").get("suggest");
+        Object comment = jsonObject.getJSONObject("problems").get("comment");
+
         XSSFWorkbook workbook = new XSSFWorkbook();
-        // 获取当前的Sheet
-        XSSFSheet sheet = workbook.createSheet("sheet1");
-        // 获取第一行
-        XSSFRow row = sheet.createRow(0);
-        row.createCell(0).setCellValue("PJ20230830001");
-        XSSFRow row1 = sheet.createRow(1);
-        row1.createCell(0).setCellValue("A0001中高管人员领导力360°反馈-高级经理");
+        XSSFSheet sheet = workbook.createSheet("被评人");
+        sheet.createRow(0).createCell(0).setCellValue(name.toString());
+        sheet.createRow(1).createCell(0).setCellValue(topTitle.toString());
 
-        // 记录Key所在的列
-        Map<String, Integer> map = new HashMap<>();
-        int cellCount = 0;
-        // 遍历的行
         int rowNum = 2;
-        createRow(sheet, rowNum, "序号", "内容");
-        XSSFRow currentRow = sheet.createRow(2);
-        Object problems = jsonObject.get("problems");
-        JSONObject problemsJson = (JSONObject) JSON.toJSON(problems);
-
-        JSONArray firstProperty = (JSONArray) problemsJson.get("firstPropertyList");
-        for (int i = 0; i < firstProperty.size()-1; i++) {
+        // 遍历jsonArray
+        for (int i = 0; i < problemArray.size(); i++) {
+            Object firstTitle = problemArray.getJSONObject(i).get("firstTitle");
+            createRow(sheet, rowNum, "firstTitle", firstTitle.toString());
             rowNum++;
-            JSONObject firstPropertyJsonObject = firstProperty.getJSONObject(i);
-//            createRow(sheet, rowNum, firstProperty.get(0), firstProperty.get(1));
-
-            Object firstTitle = firstPropertyJsonObject.get("firstTitle");
-            currentRow.createCell(0).setCellValue(firstTitle.toString());
-            JSONArray secondProperty = (JSONArray) firstPropertyJsonObject.get("secondPropertyList");
-            for (int j = 0; j < secondProperty.size() - 1; j++) {
-                JSONObject secondPropertyJsonObject = secondProperty.getJSONObject(j);
-                Object secondTitle = secondPropertyJsonObject.get("secondTitle");
-                Object options = secondPropertyJsonObject.get("options");
-
-                sheet.createRow(3).createCell(0).setCellValue(secondTitle.toString());
-                sheet.createRow(5).createCell(0).setCellValue(options.toString());
+            JSONArray secondPropertyArray = problemArray.getJSONObject(i).getJSONArray("secondPropertyList");
+            for (int j = 0; j < secondPropertyArray.size(); j++) {
+                Object secondTitle = secondPropertyArray.getJSONObject(j).get("secondTitle");
+                createRow(sheet, rowNum, "secondTitle", secondTitle.toString());
+                rowNum++;
+                sheet.createRow(rowNum).createCell(1).setCellValue("总评情况");
+                sheet.createRow(rowNum).createCell(2).setCellValue("（评价人：张三）");
+                rowNum++;
+                // 遍历选项
+                for (int k = 1; k <= 5; k++) {
+                    sheet.createRow(rowNum).createCell(0).setCellValue("无法评价");
+                    sheet.createRow(rowNum).createCell(0).setCellValue("非常不认同");
+                    sheet.createRow(rowNum).createCell(0).setCellValue("不认同");
+                    sheet.createRow(rowNum).createCell(0).setCellValue("一般");
+                    sheet.createRow(rowNum).createCell(0).setCellValue("非常认同");
+                    rowNum++;
+                }
+                Object options = secondPropertyArray.getJSONObject(j).get("options");
             }
-
         }
-
-
         save(workbook, savePath, fileName);
-
-        /*try(XSSFWorkbook workbook = new XSSFWorkbook()){
-            // 获取当前的Sheet
-            XSSFSheet sheet = workbook.createSheet("sheet");
-            // 获取第一行
-            XSSFRow firstRow = sheet.createRow(0);
-            // 记录Key所在的列
-            Map<String, Integer> map = new HashMap<>();
-            // 记录列数
-            int cellCount = 0;
-            // 遍历 JSON的key
-            XSSFRow currentRow = sheet.createRow(1);
-            for (String key : jsonObject.keySet()) {
-                // 先处理列
-                if(!map.containsKey(key)){  // 当列不存在则添加
-                    map.put(key, cellCount);
-                    XSSFCell cell = firstRow.createCell(cellCount++);
-                    cell.setCellValue(key);
-                }
-                XSSFCell currentCell = currentRow.createCell(map.get(key));
-                String jsonStr = jsonObject.getString(key);
-                // 如果 Value为数组 则创建新的 Sheet
-                if(JSON.isValidArray(jsonStr)){
-                    String subSheetName = "Sheet-" + key;
-                    createSubSheet(1, workbook, subSheetName, jsonObject.getJSONArray(key));
-                    currentCell.setCellValue(subSheetName);
-                } else if(JSON.isValidObject(jsonStr)){ // 如果当前 value 仍然是一个JSON对象
-                    String subSheetName = "Sheet-" + key;
-                    createSubSheet(1, workbook, subSheetName, jsonObject.getJSONObject(key));
-                    currentCell.setCellValue(subSheetName);
-                }
-                else {
-                    // 特殊处理空值
-                    if(StringUtils.isEmpty(jsonStr))
-                        currentCell.setCellValue("null");
-                    else
-                        currentCell.setCellValue(jsonStr);
-                }
-            }
-            save(workbook, savePath, fileName);
-        } catch (IOException ex) {
-            throw new RuntimeException(ex);
-        }*/
     }
 
     // 新建行
     private static void createRow(XSSFSheet sheet, int rowNum, String title, String value) {
-        Row row = sheet.createRow(rowNum); // 2
+        Row row = sheet.createRow(rowNum);
         Cell cell = row.createCell(0);
-        cell.setCellValue(title);
+        // 存入excel
+        cell.setCellValue(value);
 
-        if (value != null && !value.isEmpty()) {
+        /*if (value != null && !value.isEmpty()) {
             int columnIndex = 1;
             String[] options = value.split(",");
             for (String option : options) {
                 Cell cellOption = row.createCell(columnIndex++);
                 cellOption.setCellValue(option);
             }
-        }
+        }*/
+
     }
 
     /**
@@ -284,7 +242,7 @@ public class JsonToExcelUtils {
             FileOutputStream fileOutputStream = new FileOutputStream(path + "/" + fileName + ".xlsx");
             workbook.write(fileOutputStream);
             fileOutputStream.close();
-            System.out.println("保存完毕. 保存位置为[ " + path + "/" + fileName + " ]");
+            log.info("保存完毕. 保存位置为[ " + path + "/" + fileName + " ]");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -293,7 +251,7 @@ public class JsonToExcelUtils {
     /**
      * json转 excel
      */
-    public static void toExcelByLocalJSONFile(String resourcePath, String savePath, String fileName) {
+    public static void toExcelByLocalJSONFile(String resourcePath, String savePath, String fileName) throws IOException {
         // 1. 获取标准的 JSON 字符串
         String jsonStr = readJSONFile(resourcePath);
         // 验证字符串是否合法
