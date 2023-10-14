@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,311 +29,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c735eea9-1ada-4c20-871b-aef5354bb8d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ruoyi-business/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/controller/MailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/domain/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/utils/DeployParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/utils/SendMailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/RuoYiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.env.staging" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/bin/build.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/bin/package.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/bin/run-web.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/public/html/ie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/job.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/jobLog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/logininfor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/online.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/operlog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dept.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/notice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/role.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/tool/gen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/401_images/401.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/404_images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/404_images/404_cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/bug.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/build.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/cascader.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/chart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/checkbox.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/clipboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/code.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/component.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/dashboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/date-range.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/date.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/dict.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/documentation.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/download.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/drag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/druid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/edit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/education.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/email.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/example.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/excel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/exit-fullscreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/eye-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/fullscreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/guide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/input.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/international.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/job.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/language.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/lock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/log.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/logininfor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/message.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/money.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/monitor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/nested.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/number.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/online.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/password.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/pdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/people.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/peoples.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/post.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/qq.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/question.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/radio.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/rate.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/redis-list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/redis.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/row.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/select.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/server.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/shopping.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/size.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/skill.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/slider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/swagger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/switch.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/system.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/textarea.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/theme.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/time-range.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/time.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tool.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tree-table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tree.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/upload.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/validCode.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/wechat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/zip.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svgo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/login-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/pay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/btn.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/element-ui.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/element-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/ruoyi.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Breadcrumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/day.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/hour.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/min.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/month.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/result.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/second.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/week.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/year.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/DictData/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/DictTag/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Editor/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/FileUpload/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Hamburger/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/HeaderSearch/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/IconSelect/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/IconSelect/requireIcons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/ImagePreview/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/ImageUpload/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Pagination/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/PanThumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/ParentView/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/RightPanel/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/RightToolbar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/RuoYi/Doc/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/RuoYi/Git/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Screenfull/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/SizeSelect/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/SvgIcon/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/ThemePicker/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/TopNav/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/iFrame/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/dialog/drag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/dialog/dragHeight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/dialog/dragWidth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/module/clipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/permission/hasPermi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/directive/permission/hasRole.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/AppMain.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/IframeToggle/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/InnerLink/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Navbar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Settings/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/TagsView/ScrollPane.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/TagsView/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/plugins/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/plugins/cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/plugins/download.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/plugins/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/plugins/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/plugins/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/dict.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/tagsView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/Dict.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictConverter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictMeta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/errorCode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/drawingDefault.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/icon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/render.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/jsencrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/ruoyi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/scroll-to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/element-icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/svg-icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/BarChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/LineChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/PanelGroup.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/PieChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/RaddarChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/mixins/resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/error/401.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/error/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/index_v1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/cache/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/cache/list.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/druid/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/log.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/logininfor/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/online/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/operlog/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/server/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/redirect.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/register.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/config/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dept/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dict/data.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dict/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/menu/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/notice/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/post/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/authUser.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/selectUser.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/authRole.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/resetPwd.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/userAvatar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/userInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/CodeTypeDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/DraggableItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/IconsDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/RightPanel.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/TreeNodeDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/basicInfoForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/editTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/genInfoForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/importTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/swagger/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/vue.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-business/designpattern.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/resources/designpattern-UML/Strategy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/META-INF/spring-devtools.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/application-druid.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/ruoyi-admin.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-business/target/classes/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/generator.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/mapper/generator/GenTableColumnMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/mapper/generator/GenTableMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/java/controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/java/domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/java/mapper.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/java/service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/java/serviceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/java/sub-domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/js/api.js.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/sql/sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/vue/index-tree.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/vue/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/vue/v3/index-tree.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/vue/v3/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/vue/v3/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/classes/vm/xml/mapper.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-quartz/target/classes/mapper/quartz/SysJobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-quartz/target/classes/mapper/quartz/SysJobMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-quartz/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysDictDataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysDictTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysLogininforMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysNoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysOperLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysRoleDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysRoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysUserPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,21 +116,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Java\apache-maven-3.6.1-bin\apache-maven-3.6.1\maven_repository" />
-        <option name="mavenHome" value="D:/Java/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:\Java\apache-maven-3.6.1-bin\apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="1.8" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -374,10 +141,14 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="2SX7u0iOi1OWrdj0z3YzbLWZHqu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -388,15 +159,29 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.26327944" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ruoyi-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
@@ -405,6 +190,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -427,96 +213,57 @@
       <workItem from="1694318717631" duration="677000" />
       <workItem from="1694323736767" duration="1370000" />
       <workItem from="1694437208025" duration="561000" />
+      <workItem from="1696941417152" duration="6922000" />
+      <workItem from="1696981387002" duration="10770000" />
+      <workItem from="1697067989849" duration="3637000" />
+      <workItem from="1697101432542" duration="2516000" />
+      <workItem from="1697154583249" duration="11435000" />
+      <workItem from="1697249568298" duration="4095000" />
     </task>
+    <task id="LOCAL-00001" summary="fix:开放验证码">
+      <created>1697030575001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697030575001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1692807006832">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1692807006832" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1694327480853">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1694327480853" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1693581889497">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693581889497" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1693581889497">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1693581889497" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1693581889497">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1693581889497" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1693581889497">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1693581889497" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.2.bottom" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.2.center" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.2.left" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state width="1493" height="210" key="GridCell.Tab.2.right" timestamp="1693581889493">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1693581889493" />
-    <state x="349" y="143" key="IDE.errors.dialog" timestamp="1694437366341">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="349" y="143" key="IDE.errors.dialog/0.0.1536.816@0.0.1536.816" timestamp="1694437366341" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1694437413985">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1694437413985" />
-    <state x="336" y="10" key="new project wizard" timestamp="1693491163284">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="336" y="10" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1693491163284" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1693577109145">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1693577109145" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix:开放验证码" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:开放验证码" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
