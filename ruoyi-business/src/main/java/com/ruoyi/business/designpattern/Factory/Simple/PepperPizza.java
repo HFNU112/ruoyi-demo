@@ -11,25 +11,25 @@ public class PepperPizza extends Pizza{
 
     @Override
     public void prepare() {
-        setName("PepperPizza");
+        setName("胡椒披萨");
         log.info(name + " is preparing ... ");
     }
 
     @Override
     public void bake() {
-        setName("PepperPizza");
+        setName("胡椒披萨");
         log.info(name + " is baking ... ");
     }
 
     @Override
     public void cut() {
-        setName("PepperPizza");
+        setName("胡椒披萨");
         log.info(name + " is cutting ... ");
     }
 
     @Override
     public void box() {
-        setName("PepperPizza");
+        setName("胡椒披萨");
         log.info(name + " is boxing ... ");
     }
 }

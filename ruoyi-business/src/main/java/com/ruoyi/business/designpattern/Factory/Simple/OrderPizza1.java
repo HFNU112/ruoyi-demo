@@ -28,7 +28,7 @@ public class OrderPizza1 {
         do {
             pizza = simpleFactory.createPizza(getType());
             if (pizza == null){
-                log.info(" order failed ... ");
+                log.info( "order failed ... ");
             }
             pizza.prepare();
             pizza.bake();
@@ -38,7 +38,7 @@ public class OrderPizza1 {
     }
 
     private String getType() {
-        System.out.println(" Please enter the desired pizza type:");
+        System.out.println("请输入预定披萨类型:");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {
             return bufferedReader.readLine();

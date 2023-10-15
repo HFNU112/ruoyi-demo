@@ -1,20 +1,12 @@
 package com.ruoyi.business;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.ruoyi.business.designpattern.Factory.Simple.OrderPizza1;
+import com.ruoyi.business.designpattern.Factory.Simple.SimpleFactory;
+
 import org.junit.Test;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
 
 import static com.ruoyi.business.utils.JsonToExcelUtils.toExcelByLocalJSONFile;
 
@@ -32,6 +24,12 @@ public class SpringBootTest {
          String fileName = "test";
          // 将json数据写入到excel
          toExcelByLocalJSONFile(jsonPath, savePath, fileName); //传递的json字符串；保存json数据的位置；文件名
+     }
+
+     @Test
+     public void testSimpleFactoryPizza(){
+         new OrderPizza1(new SimpleFactory());
+         System.out.println("exit");
      }
 
 }

@@ -12,25 +12,25 @@ public class CheesePizza extends Pizza{
 
     @Override
     public void prepare() {
-        setName("CheesePizza");
+        setName("奶酪披萨");
         log.info(name + " is preparing ... ");
     }
 
     @Override
     public void bake() {
-        setName("CheesePizza");
+        setName("奶酪披萨");
         log.info(name + " is baking ... ");
     }
 
     @Override
     public void cut() {
-        setName("CheesePizza");
+        setName("奶酪披萨");
         log.info(name + " is cutting ... ");
     }
 
     @Override
     public void box() {
-        setName("CheesePizza");
+        setName("奶酪披萨");
         log.info(name + " is boxing ... ");
     }
 }

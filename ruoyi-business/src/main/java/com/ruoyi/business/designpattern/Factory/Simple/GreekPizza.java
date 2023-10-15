@@ -12,25 +12,25 @@ public class GreekPizza extends Pizza{
 
     @Override
     public void prepare() {
-        setName("GreekPizza");
+        setName("希腊披萨");
         log.info(name + " is preparing ... ");
     }
 
     @Override
     public void bake() {
-        setName("GreekPizza");
+        setName("希腊披萨");
         log.info(name + " is baking ... ");
     }
 
     @Override
     public void cut() {
-        setName("GreekPizza");
+        setName("希腊披萨");
         log.info(name + "is cutting ... ");
     }
 
     @Override
     public void box() {
-        setName("GreekPizza");
+        setName("希腊披萨");
         log.info(name + "is boxing ... ");
     }
 }
