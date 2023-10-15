@@ -13,7 +13,12 @@
 
 ##### 3.依赖倒置原则（DIP）
 
-##### 4.里氏替换原则（LSP）
+
+##### 4、接口隔离原则（ISP）
+
+
+##### 5.里氏替换原则（LSP）
+
 
 #### 二、主流的设计模式
 
@@ -36,3 +41,15 @@
 **策略模式实现的UML类图** 
 
 ![Strategy](src/main/resources/designpattern-UML/Strategy.png)
+
+##### 3、装饰者模式
+> 主要是**动态的将新功能(Features)特性附加到对象上**，在对象功能扩展上面比继承更有弹性，体现OCP原则。
+> 用来解决当有很多个类，需要增加新的种类，类的数量会增加，避免出现类爆炸。
+> 在增加功能类时，提高了代码可维护性。
+
+**装饰者模式实现的UML类图**
+
+![Decorator](src/main/resources/designpattern-UML/Decorator.png)
+
+
+##### 4、代理模式
