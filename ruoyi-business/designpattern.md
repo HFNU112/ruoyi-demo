@@ -51,6 +51,7 @@
 
 ![Decorator](src/main/resources/designpattern-UML/Decorator.png)
 
+> 记录问题：maven工程测试main方法中文乱码：maven -> Runner -> 配置参数 -Dfile.encoding=GBK
 
 ##### 4、代理模式
 > 主要是为目标对象提供一个替身，控制这个目标对象的访问。主要目标在目标对象实现的基础上，增强额外的功能操作，达到扩展目标对象的目的。
