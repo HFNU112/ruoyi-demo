@@ -9,5 +9,9 @@ public class Client {
     public static void main(String[] args) {
         Duck wildDuck =new WildDuck();
         wildDuck.fly();
+
+        System.out.println("--------------------");
+        Duck pekingDuck = new PekingDuck();
+        pekingDuck.swim();
     }
 }

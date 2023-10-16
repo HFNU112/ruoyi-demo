@@ -11,6 +11,8 @@ public abstract class Duck {
 
     protected Flybehavior flybehavior;
 
+    protected Swimbehavior swimbehavior;
+
     public void setName(String name) {
         this.name = name;
     }
