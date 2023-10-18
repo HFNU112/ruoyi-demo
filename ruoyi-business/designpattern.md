@@ -13,12 +13,16 @@
 
 ##### 3.依赖倒置原则（DIP）
 
+> 高层模块不应该依赖于低层模块，二者依赖于抽象。
+> 抽象不依赖于细节，细节（具体的实现类）依赖于抽象。它的核心是面向接口编程思想
+> 依赖传递方式：通过接口传递、构造器传递、Setter方法传递
 
 ##### 4、接口隔离原则（ISP）
 
 
 ##### 5.里氏替换原则（LSP）
 
+> 所有引用基类的方法必须透明的使用其子类的对象。
 
 #### 二、主流的设计模式
 
@@ -42,6 +46,10 @@
 
 ![Strategy](src/main/resources/designpattern-UML/Strategy.png)
 
+企业微信消息格式api类图
+
+![qiyewehatmsg](src/main/resources/designpattern-UML/qiyewehatmsg.png)
+
 ##### 3、装饰者模式
 > 主要是**动态的将新功能(Features)特性附加到对象上**，在对象功能扩展上面比继承更有弹性，体现OCP原则。
 > 用来解决当有很多个类，需要增加新的种类，类的数量会增加，避免出现类爆炸。
@@ -52,6 +60,12 @@
 ![Decorator](src/main/resources/designpattern-UML/Decorator.png)
 
 > 记录问题：maven工程测试main方法中文乱码：maven -> Runner -> 配置参数 -Dfile.encoding=GBK
+
+springboot项目中应用装饰者：https://juejin.cn/post/6990933352370929672#heading-3
+
+视频播放功能加上特效功能类图
+
+![vedio](src/main/resources/designpattern-UML/vedio.png)
 
 ##### 4、代理模式
 > 主要是为目标对象提供一个替身，控制这个目标对象的访问。主要目标在目标对象实现的基础上，增强额外的功能操作，达到扩展目标对象的目的。
@@ -73,3 +87,17 @@ cglib代理
 
 **cglib代理实现的UML类图**
 ![cglib](src/main/resources/designpattern-UML/cglib.png)
+
+
+##### 5、工厂方法模式
+> 定义一个创建对象的抽象方法，由子类决定要实例化的类。将对象的实例化推迟到子类上。
+
+
+
+##### 6、原型模式
+
+
+
+##### 7、模板方法模式
+
+
