@@ -19,10 +19,19 @@
 
 ##### 4、接口隔离原则（ISP）
 
+> 客户端不应该依赖它不需要的接口，就是一个类对另一个类的依赖建立在最小接口上。
+> 对于类实现接口对接口拆分成为最小接口原则。
 
 ##### 5.里氏替换原则（LSP）
 
 > 所有引用基类的方法必须透明的使用其子类的对象。
+
+##### 6、迪米特法则（最少知道原则）
+
+> 一个类对自己依赖的类知道的越少越好。陌生的类不要以局部变量出现在类的内部。
+> 对于被依赖的类不管多么复杂，尽量将逻辑封装在类的内部。
+> 迪米特法则只与直接的朋友通信。
+> 降低类之间的耦合，并不是要求完全没有依赖关系。
 
 #### 二、主流的设计模式
 
@@ -30,10 +39,9 @@
 > 专门用来定义一个类负责创建对象，实现**对象创建和对象使用分离**。解决对象创建的耦合度。
 > 设计方案：定义一个可以实例化的对象类，封装对象的代码。
 
-**简单工厂模式实现的UML类图** 
+**简单工厂模式需求UML类图** 
 
-![SimpleFactory](src/main/resources/designpattern-UML/SimpleFactory.png)
-
+![SimpleFactory](src/main/resources/UML/SimpleFactory.png)
 
 ##### 2、策略模式
 > 定义了算法家族，分别封装起来，让它们之间互相替换，此模式让算法变化，不会影响到使用算法的客户。
@@ -42,56 +50,58 @@
 > 策略模式设计原则：把变化代码从不变代码中分离出来；针对接口编程；多用组合/聚合，少用继承
 > 策略模式体现了开闭原则，客户端要增加行为，只需要添加一种策略（或行为），避免多重的if ... else语句
 
-**策略模式实现的UML类图** 
+**策略模式需求UML类图** 
 
-![Strategy](src/main/resources/designpattern-UML/Strategy.png)
+![Strategy](src/main/resources/UML/Strategy.png)
 
 企业微信消息格式api类图
 
-![qiyewehatmsg](src/main/resources/designpattern-UML/qiyewehatmsg.png)
+![qiyewehatmsg](src/main/resources/UML/qiyewehatmsg.png)
 
 ##### 3、装饰者模式
 > 主要是**动态的将新功能(Features)特性附加到对象上**，在对象功能扩展上面比继承更有弹性，体现OCP原则。
 > 用来解决当有很多个类，需要增加新的种类，类的数量会增加，避免出现类爆炸。
 > 在增加功能类时，提高了代码可维护性。
 
-**装饰者模式实现的UML类图**
+**装饰者模式需求UML类图**
 
-![Decorator](src/main/resources/designpattern-UML/Decorator.png)
+![Decorator](src/main/resources/UML/Decorator.png)
 
 > 记录问题：maven工程测试main方法中文乱码：maven -> Runner -> 配置参数 -Dfile.encoding=GBK
 
-springboot项目中应用装饰者：https://juejin.cn/post/6990933352370929672#heading-3
+参考：springboot项目中应用装饰者：https://juejin.cn/post/6990933352370929672#heading-3
 
 视频播放功能加上特效功能类图
 
-![vedio](src/main/resources/designpattern-UML/vedio.png)
+![vedio](src/main/resources/UML/vedio.png)
 
 ##### 4、代理模式
 > 主要是为目标对象提供一个替身，控制这个目标对象的访问。主要目标在目标对象实现的基础上，增强额外的功能操作，达到扩展目标对象的目的。
 > 静态代理；主要是在不修改目标对象的功能前提下，通过代理对象对目标对象功能扩展，但是一旦接口增加方法，目标对象和被代理对象都要维护。
 
-**静态代理实现的UML类图**
-![StaticProxy](src/main/resources/designpattern-UML/StaticProxy.png)
+**静态代理需求类图**
+![StaticProxy](src/main/resources/UML/StaticProxy.png)
 
 > 如果目标对象接口需要增加方法，同时维护目标对象实现类和代理对象。
 > 这种方式是满足代理对象对目标对象的功能方法扩展，体现了OCP原则。
 
-**JDK动态代理实现的UML类图**
-![JDKDynamic](src/main/resources/designpattern-UML/JDKDynamic.png)
+**JDK动态代理需求UML类图**
+![JDKDynamic](src/main/resources/UML/JDKDynamic.png)
 
 cglib代理
 > 目标对象只是单独一个的对象，并没有实现任何接口，使用目标对象子类来实现代理，这是cglib代理。
 > cglib可以在运行期扩展java类和实现java接口。在SpringAOP中实现方法拦截。
 > 在AOP中选择代理模式：目标对象实现接口选择JDK代理；目标对象不需要实现接口选择cglib代理。
 
-**cglib代理实现的UML类图**
-![cglib](src/main/resources/designpattern-UML/cglib.png)
+**cglib代理需求UML类图**
+![cglib](src/main/resources/UML/cglib.png)
 
 
 ##### 5、工厂方法模式
 > 定义一个创建对象的抽象方法，由子类决定要实例化的类。将对象的实例化推迟到子类上。
 
+**工厂方法模式需求UML类图**
+![factoryMethod](src/main/resources/UML/factoryMethod.png)
 
 
 ##### 6、原型模式
@@ -99,5 +109,80 @@ cglib代理
 
 
 ##### 7、模板方法模式
+
+> 在一个抽象类(AbstractClass)中公开定义了执行它的方法模板，它的子类可以按需要的重写方法实现，调用以抽象类中定义的方式进行。
+> (ConcreteClass)定义了一个操作中的算法的骨架，将一些步骤延迟到子类中，使子类不改变算法结构就可以重定义该算法的某些**特定步骤**。
+> 模板方法的钩子方法：在模板方法的父类中，定义一个方法，默认不做任何事，子类可以视情况要不要覆盖。
+
+**模板方法模式需求UML类图**
+![factoryMethod](src/main/resources/UML/factoryMethod.png)
+
+**IoC源码应用模板方法模式**
+![IoC-templateMethod](src/main/resources/UML/IoC-templateMethod.png)
+
+> 基本思想：算法只存在一个地方(父类中)，易于修改。
+> 实现代码最大化的代码复用。父类的模板方法和已实现的某些步骤被子类继承而直接使用。
+> 一般模板方法加上final关键字，防止子类重写模板方法。
+> 适用场景：当要完成在某个过程，该过程执行一系列步骤，这一系列步骤步骤基本相同，但个别步骤在实现有所不同，考虑使用模板方法模式。
+
+##### 8、外观模式
+
+
+
+##### 9、建造者模式
+
+> 对象构建模式，可以将复杂的对象建造过程抽象出来（抽象类别），使这个抽象过程的不同实现方式可以构造出不同的表现（属性）的对象。
+> 通过一步一步创建一个复杂对象，允许用户只通过指定复杂对象的类型和内容就可以构建，用户不需要知道内部的具体细节。
+> 构成：Product(产品)、Builder(抽象建造者)、ConcreteBuilder(具体建造者)、Director(指挥者)
+
+**建造者模式需求UML类图**
+![builder](src/main/resources/UML/builder.png)
+
+##### 10、观察者模式
+
+
+##### 11、抽象工厂模式
+
+
+
+##### 12、状态模式
+
+
+##### 13、适配器模式
+
+
+##### 14、备忘录模式
+
+
+##### 15、组合模式
+
+
+
+##### 16、迭代器模式
+
+
+##### 17、单例模式
+
+
+##### 18、桥接模式
+
+
+##### 19、命令模式
+
+
+##### 20、职责链模式
+
+
+
+##### 21、中介者模式
+
+
+##### 22、享元模式
+
+
+##### 23、解释器模式
+
+
+##### 24、访问者模式
 
 
