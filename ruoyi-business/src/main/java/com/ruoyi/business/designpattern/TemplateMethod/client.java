@@ -10,5 +10,8 @@ public class client {
 
     public static void main(String[] args) {
         //ConfigurableApplicationContext
+
+        SoymilkAbstractClass blackBeanMilk = new BlackBeanMilk();
+        blackBeanMilk.make();
     }
 }
