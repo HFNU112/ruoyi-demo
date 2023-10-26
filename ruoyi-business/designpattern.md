@@ -33,6 +33,9 @@
 > 迪米特法则只与直接的朋友通信。
 > 降低类之间的耦合，并不是要求完全没有依赖关系。
 
+##### 7、合成复用原则
+
+
 #### 二、主流的设计模式
 
 ##### 1、简单工厂模式（静态工厂模式）
@@ -115,7 +118,7 @@ cglib代理
 > 模板方法的钩子方法：在模板方法的父类中，定义一个方法，默认不做任何事，子类可以视情况要不要覆盖。
 
 **模板方法模式需求UML类图**
-![factoryMethod](src/main/resources/UML/factoryMethod.png)
+![templateMethod](src/main/resources/UML/templateMethod.png)
 
 **IoC源码应用模板方法模式**
 ![IoC-templateMethod](src/main/resources/UML/IoC-templateMethod.png)
@@ -138,17 +141,42 @@ cglib代理
 **建造者模式需求UML类图**
 ![builder](src/main/resources/UML/builder.png)
 
+**StringBuilder源码应用建造者模式**
+![StringBuilder](src/main/resources/UML/StringBuilder.png)
+
 ##### 10、观察者模式
 
 
 ##### 11、抽象工厂模式
 
+**抽象工厂模式需求UML类图**
+![AbstractFactory](src/main/resources/UML/AbstractFactory.png)
 
+> 在设计层面抽象工厂接口和具体实现的工厂子类，让单个简单工厂变成工厂簇
+> 便于代码扩展和维护。根据创建对象类型对应工厂子类。
 
 ##### 12、状态模式
 
 
 ##### 13、适配器模式
+
+> 一个类的接口可以转换成所期望的另一类的接口，它的目的是让接口达到兼容性。
+> 适配器模式为了解决接口不匹配问题。分别有类、对象、接口适配器，
+> 在用户角度看不到被适配者，从用户反馈感觉只和目标接口交互。
+
+**类适配器需求UML类图**
+![ClassAdpater](src/main/resources/UML/ClassAdpater.png)
+
+**对象适配器需求UML类图**
+![ObjectAdapter](src/main/resources/UML/ObjectAdapter.png)
+
+> 解决了用组合替代继承，符合了合成复用的原则。
+
+**接口适配器需求UML类图**
+![InterfaceAdapter](src/main/resources/UML/InterfaceAdapter.png)
+
+> 当某个类不需要实现全部接口方法，抽象类的子类可以选择的覆盖父类的某些方法。
+> 程序中匿名内部类可以抽象类的实现类
 
 
 ##### 14、备忘录模式
@@ -172,6 +200,12 @@ cglib代理
 
 ##### 20、职责链模式
 
+> 为请求创建的发送者请求和接收者解耦。
+> 每一个接收者包含另一个接收者的引用。
+> 为请求创建一个接收对象的链。
+
+**职责链模式需求UML类图**
+![responsibility](src/main/resources/UML/responsibility.png)
 
 
 ##### 21、中介者模式
