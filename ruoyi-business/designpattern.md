@@ -146,6 +146,15 @@ cglib代理
 
 ##### 10、观察者模式
 
+> 观察者模式（发布/订阅模式）通过Subject被依赖对象和Observer依赖对象形成了一对多的关系；
+> Subject对象有注册用户方法、移除用户方法、通知用户方法，一旦Subject对象有变化就会
+> 通知调用Observer对象的update方法就会更新。
+
+**观察者模式需求UML类图**
+![observer](src/main/resources/UML/observer.png)
+
+**jdk应用Observale源码类图**
+![Observable](src/main/resources/UML/Observable.png)
 
 ##### 11、抽象工厂模式
 
@@ -184,12 +193,41 @@ cglib代理
 
 ##### 15、组合模式
 
+> 用来表示整体和部分的关系，创建了对象组的树形结构，将对象组合成树状结构。让客户以一致的方式处理个别对象及组合对象。
+> 角色分析：
+> Component: 组合对象的声明接口，实现所有类共有的接口默认行为（抽象类或接口）
+> Leaf: 叶子节点，对象不可划分了
+> Composite: 非叶子节点，存储子部件，实现子部件
 
+**组合模式需求UML类图**
+![composite](src/main/resources/UML/composite.png)
+
+**HashMap应用源码类图**
+![composite-hashmap](src/main/resources/UML/composite-hashmap.png)
 
 ##### 16、迭代器模式
 
+> 提供了一种遍历集合元素的统一接口，用一致的方法遍历集合元素，不需要知道集合对象元素的底层表示。即：不暴露集合元素的内部结构。
+> 角色分析：
+>     1、迭代器接口 (Iterator)
+>     2、具体实现迭代器的子类
+>     3、统一的聚合接口，返回迭代器对象
+>     4、实现聚合接口的子类
+
+**迭代器需求UML类图**
+
+![iterator](src/main/resources/UML/iterator.png)
+
+**ArrayList集合应用源码类图**
+
+![arraylist-iterator](src/main/resources/UML/arraylist-iterator.png)
 
 ##### 17、单例模式
+
+> 在系统中某个类只能存在一个对象实例。
+> 饿汉式（静态常量）：在类加载的时候完成实例化，避免了线程同步问题。但是没有达到Lazy Loading效果，会造成内存浪费。
+> 基于ClassLoader机制避免多线程的同步问题，instance在类加载时实例化调用getInstance()方法。
+> 饿汉式（静态代码块）：在类装载时，执行静态代码块中的代码，初始化的实例。可能造成内存浪费。
 
 
 ##### 18、桥接模式
@@ -206,7 +244,6 @@ cglib代理
 
 **职责链模式需求UML类图**
 ![responsibility](src/main/resources/UML/responsibility.png)
-
 
 ##### 21、中介者模式
 

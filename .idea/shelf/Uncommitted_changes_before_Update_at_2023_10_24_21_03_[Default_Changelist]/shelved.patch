@@ -1,0 +1,1506 @@
+Index: ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\constant\\HttpStatus.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\constant\\UserConstants.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\bean\\BeanUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\redis\\RedisCache.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\uuid\\Seq.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\config\\RuoYiConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\UserPasswordNotMatchException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\job\\TaskException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\SecurityUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\BusinessStatus.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\entity\\SysMenu.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\file\\InvalidExtensionException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\Threads.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\entity\\SysDept.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\text\\CharsetKit.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\base\\BaseException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\DataSourceType.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\uuid\\IdUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\sign\\Base64.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\ExceptionUtil.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\CaptchaExpireException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\constant\\ScheduleConstants.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\UserNotExistsException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\TreeSelect.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\page\\PageDomain.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\sign\\Md5Utils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\file\\FileUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\reflect\\ReflectUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\file\\ImageUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\entity\\SysDictType.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\UserStatus.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\file\\FileNameLengthLimitExceededException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\sql\\SqlUtil.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\xss\\Xss.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\file\\FileSizeLimitExceededException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\DictUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\BlackListException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\DemoModeException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\text\\StrFormatter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\page\\TableDataInfo.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\Arith.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\http\\HttpHelper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\model\\RegisterBody.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\Anonymous.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\Excel.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\HttpMethod.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\entity\\SysDictData.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\poi\\ExcelHandlerAdapter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\OperatorType.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\file\\FileUploadException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\filter\\XssFilter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\text\\Convert.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\page\\TableSupport.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\AjaxResult.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\constant\\CacheConstants.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\DateUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\RateLimiter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\filter\\RepeatedlyRequestWrapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\BaseEntity.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\constant\\Constants.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\bean\\BeanValidators.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\DataSource.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\BusinessType.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\RepeatSubmit.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\R.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\file\\FileTypeUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\model\\LoginBody.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\TreeEntity.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\LogUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\Excels.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\Log.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\model\\LoginUser.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\UserPasswordRetryLimitExceedException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\file\\FileUploadUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\ip\\IpUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\spring\\SpringUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\xss\\XssValidator.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\ServletUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\ip\\AddressUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\UserException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\filter\\PropertyPreExcludeFilter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\entity\\SysRole.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\html\\HTMLFilter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\html\\EscapeUtil.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\PageUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\uuid\\UUID.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\constant\\GenConstants.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\http\\HttpUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\annotation\\DataScope.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\enums\\LimitType.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\file\\FileException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\filter\\XssHttpServletRequestWrapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\domain\\entity\\SysUser.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\MessageUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\UtilException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\ServiceException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\GlobalException.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\StringUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\core\\controller\\BaseController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\filter\\RepeatableFilter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\poi\\ExcelUtil.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\utils\\file\\MimeTypeUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-common\\src\\main\\java\\com\\ruoyi\\common\\exception\\user\\CaptchaException.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697994379460)
+@@ -1,103 +1,103 @@
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\HttpStatus.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\UserConstants.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\bean\BeanUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\redis\RedisCache.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\uuid\Seq.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\config\RuoYiConfig.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserPasswordNotMatchException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\job\TaskException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\SecurityUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\BusinessStatus.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysMenu.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\InvalidExtensionException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\Threads.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysDept.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\text\CharsetKit.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\base\BaseException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\DataSourceType.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\uuid\IdUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\sign\Base64.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ExceptionUtil.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\CaptchaExpireException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\ScheduleConstants.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserNotExistsException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\TreeSelect.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\page\PageDomain.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\sign\Md5Utils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\FileUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\reflect\ReflectUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\ImageUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysDictType.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\UserStatus.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileNameLengthLimitExceededException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\sql\SqlUtil.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\xss\Xss.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileSizeLimitExceededException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\DictUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\BlackListException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\DemoModeException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\text\StrFormatter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\page\TableDataInfo.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\Arith.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\http\HttpHelper.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\model\RegisterBody.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Anonymous.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Excel.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\HttpMethod.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysDictData.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\poi\ExcelHandlerAdapter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\OperatorType.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileUploadException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\XssFilter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\text\Convert.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\page\TableSupport.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\AjaxResult.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\CacheConstants.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\DateUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\RateLimiter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\RepeatedlyRequestWrapper.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\BaseEntity.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\Constants.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\bean\BeanValidators.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\DataSource.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\BusinessType.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\RepeatSubmit.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\R.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\FileTypeUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\model\LoginBody.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\TreeEntity.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\LogUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Excels.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Log.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\model\LoginUser.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserPasswordRetryLimitExceedException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\FileUploadUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ip\IpUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\spring\SpringUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\xss\XssValidator.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ServletUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ip\AddressUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\PropertyPreExcludeFilter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysRole.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\html\HTMLFilter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\html\EscapeUtil.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\PageUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\uuid\UUID.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\GenConstants.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\http\HttpUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\DataScope.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\LimitType.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\XssHttpServletRequestWrapper.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysUser.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\MessageUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\UtilException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\ServiceException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\GlobalException.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\StringUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\controller\BaseController.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\RepeatableFilter.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\poi\ExcelUtil.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\MimeTypeUtils.java
+-E:\code\RuoYi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\CaptchaException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\HttpStatus.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\UserConstants.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\bean\BeanUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\redis\RedisCache.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\uuid\Seq.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\config\RuoYiConfig.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserPasswordNotMatchException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\job\TaskException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\SecurityUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\BusinessStatus.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysMenu.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\InvalidExtensionException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\Threads.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysDept.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\text\CharsetKit.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\base\BaseException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\DataSourceType.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\uuid\IdUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\sign\Base64.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ExceptionUtil.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\CaptchaExpireException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\ScheduleConstants.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserNotExistsException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\TreeSelect.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\page\PageDomain.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\sign\Md5Utils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\FileUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\reflect\ReflectUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\ImageUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysDictType.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\UserStatus.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileNameLengthLimitExceededException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\sql\SqlUtil.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\xss\Xss.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileSizeLimitExceededException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\DictUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\BlackListException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\DemoModeException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\text\StrFormatter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\page\TableDataInfo.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\Arith.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\http\HttpHelper.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\model\RegisterBody.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Anonymous.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Excel.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\HttpMethod.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysDictData.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\poi\ExcelHandlerAdapter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\OperatorType.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileUploadException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\XssFilter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\text\Convert.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\page\TableSupport.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\AjaxResult.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\CacheConstants.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\DateUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\RateLimiter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\RepeatedlyRequestWrapper.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\BaseEntity.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\Constants.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\bean\BeanValidators.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\DataSource.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\BusinessType.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\RepeatSubmit.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\R.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\FileTypeUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\model\LoginBody.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\TreeEntity.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\LogUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Excels.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\Log.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\model\LoginUser.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserPasswordRetryLimitExceedException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\FileUploadUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ip\IpUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\spring\SpringUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\xss\XssValidator.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ServletUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\ip\AddressUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\UserException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\PropertyPreExcludeFilter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysRole.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\html\HTMLFilter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\html\EscapeUtil.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\PageUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\uuid\UUID.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\constant\GenConstants.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\http\HttpUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\annotation\DataScope.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\enums\LimitType.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\file\FileException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\XssHttpServletRequestWrapper.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\domain\entity\SysUser.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\MessageUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\UtilException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\ServiceException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\GlobalException.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\StringUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\core\controller\BaseController.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\filter\RepeatableFilter.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\poi\ExcelUtil.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\utils\file\MimeTypeUtils.java
++E:\code\Ruoyi-Vue\ruoyi-common\src\main\java\com\ruoyi\common\exception\user\CaptchaException.java
+Index: ruoyi-business/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:31 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-business\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-business/target/maven-archiver/pom.properties b/ruoyi-business/target/maven-archiver/pom.properties
+--- a/ruoyi-business/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/target/maven-archiver/pom.properties	(date 1697699887242)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:31 CST 2023
++#Thu Oct 19 15:18:07 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-business
+Index: ruoyi-common/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:13 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-common\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-common/target/maven-archiver/pom.properties b/ruoyi-common/target/maven-archiver/pom.properties
+--- a/ruoyi-common/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-common/target/maven-archiver/pom.properties	(date 1697699878749)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:13 CST 2023
++#Thu Oct 19 15:17:58 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-common
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1697425213908)
++++ b/.idea/uiDesigner.xml	(date 1697425213908)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: ruoyi-system/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:15 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-system\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-system/target/maven-archiver/pom.properties b/ruoyi-system/target/maven-archiver/pom.properties
+--- a/ruoyi-system/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-system/target/maven-archiver/pom.properties	(date 1697699879840)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:15 CST 2023
++#Thu Oct 19 15:17:59 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-system
+Index: ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.ruoyi.business;\r\n\r\n\r\nimport com.ruoyi.business.designpattern.Decorator.Drinks;\r\nimport com.ruoyi.business.designpattern.Decorator.Milk;\r\nimport com.ruoyi.business.designpattern.Factory.Simple.OrderPizza1;\r\nimport com.ruoyi.business.designpattern.Factory.Simple.SimpleFactory;\r\n\r\nimport org.junit.Test;\r\n\r\nimport java.io.IOException;\r\n\r\nimport static com.ruoyi.business.utils.JsonToExcelUtils.toExcelByLocalJSONFile;\r\n\r\n/**\r\n * @author: Husp\r\n * @date: 2023/8/31 23:57\r\n */\r\npublic class SpringBootTest {\r\n\r\n     @Test\r\n    public void testToExcelByJson() throws IOException {\r\n         // 读取数据库的结果数据（json格式）\r\n         String jsonPath = \"C:\\\\Users\\\\29428\\\\Desktop\\\\data.json\";\r\n         String savePath = \"C:\\\\Users\\\\29428\\\\Desktop\";\r\n         String fileName = \"test\";\r\n         // 将json数据写入到excel\r\n         toExcelByLocalJSONFile(jsonPath, savePath, fileName); //传递的json字符串；保存json数据的位置；文件名\r\n     }\r\n\r\n     @Test\r\n     public void testSimpleFactoryPizza(){\r\n         new OrderPizza1(new SimpleFactory());\r\n         System.out.println(\"exit\");\r\n     }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java b/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java
+--- a/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java	(date 1697768365275)
+@@ -1,14 +1,13 @@
+ package com.ruoyi.business;
+ 
+ 
+-import com.ruoyi.business.designpattern.Decorator.Drinks;
+-import com.ruoyi.business.designpattern.Decorator.Milk;
+ import com.ruoyi.business.designpattern.Factory.Simple.OrderPizza1;
+ import com.ruoyi.business.designpattern.Factory.Simple.SimpleFactory;
+ 
+ import org.junit.Test;
+ 
+ import java.io.IOException;
++import java.util.Scanner;
+ 
+ import static com.ruoyi.business.utils.JsonToExcelUtils.toExcelByLocalJSONFile;
+ 
+@@ -34,4 +33,27 @@
+          System.out.println("exit");
+      }
+ 
++     @Test
++    public void test01(){
++//         int n = 100; // 目标白兔总数
++
++         Scanner scanner = new Scanner(System.in);
++         int num = scanner.nextInt();  // 目标白兔总数
++
++         if (num < 0){
++             throw new IllegalArgumentException("输入的白兔总数不能为负数");
++         }
++
++         int p = 1; // 每轮变成的白兔数量
++         int k = 0; // 总共进行的轮数
++
++         while (p * Math.pow(p, k) < num) {
++             p++;
++             k = (int) (Math.log(num) / Math.log(p));
++         }
++
++         System.out.println("p = " + p + ", k = " + k);
++         System.out.println("p + k = " + (p + k));
++     }
++
+ }
+Index: ruoyi-quartz/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:18 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-quartz\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-quartz/target/maven-archiver/pom.properties b/ruoyi-quartz/target/maven-archiver/pom.properties
+--- a/ruoyi-quartz/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-quartz/target/maven-archiver/pom.properties	(date 1697699881646)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:18 CST 2023
++#Thu Oct 19 15:18:01 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-quartz
+Index: ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysRegisterController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\monitor\\SysUserOnlineController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\RuoYiServletInitializer.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysPostController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\monitor\\ServerController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysDictDataController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysRoleController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\core\\config\\SwaggerConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysDeptController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysDictTypeController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysUserController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\monitor\\SysOperlogController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysProfileController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysConfigController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysMenuController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysNoticeController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\monitor\\CacheController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysIndexController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\RuoYiApplication.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\common\\CaptchaController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\common\\CommonController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\tool\\TestController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\system\\SysLoginController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\monitor\\SysLogininforController.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697994390516)
+@@ -1,24 +1,24 @@
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysRegisterController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\SysUserOnlineController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\RuoYiServletInitializer.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysPostController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\ServerController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysDictDataController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysRoleController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\core\config\SwaggerConfig.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysDeptController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysDictTypeController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysUserController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\SysOperlogController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysProfileController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysConfigController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysMenuController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysNoticeController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\CacheController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysIndexController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\RuoYiApplication.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\common\CaptchaController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\common\CommonController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\tool\TestController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysLoginController.java
+-E:\code\RuoYi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\SysLogininforController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysRegisterController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\SysUserOnlineController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\RuoYiServletInitializer.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysPostController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\ServerController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysDictDataController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysRoleController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\core\config\SwaggerConfig.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysDeptController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysDictTypeController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysUserController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\SysOperlogController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysProfileController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysConfigController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysMenuController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysNoticeController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\CacheController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysIndexController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\RuoYiApplication.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\common\CaptchaController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\common\CommonController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\tool\TestController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\system\SysLoginController.java
++E:\code\Ruoyi-Vue\ruoyi-admin\src\main\java\com\ruoyi\web\controller\monitor\SysLogininforController.java
+Index: ruoyi-admin/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:22 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-admin\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-admin/target/maven-archiver/pom.properties b/ruoyi-admin/target/maven-archiver/pom.properties
+--- a/ruoyi-admin/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-admin/target/maven-archiver/pom.properties	(date 1697699883484)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:22 CST 2023
++#Thu Oct 19 15:18:03 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-admin
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c735eea9-1ada-4c20-871b-aef5354bb8d2\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/CheesePizza.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/Client.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/GreekPizza.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/OrderPizza1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/PepperPizza.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/Pizza.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/SimpleFactory.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-admin/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-admin/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-admin/target/ruoyi-admin.jar.original\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-admin/target/ruoyi-admin.jar.original\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-business/src/main/resources/designpattern-UML/SimpleFactory.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-business/src/main/resources/designpattern-UML/SimpleFactory.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-business/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-business/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-common/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-common/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-framework/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-framework/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-generator/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-generator/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-quartz/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-quartz/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-system/target/maven-archiver/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-system/target/maven-archiver/pom.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeStyleSettingsInfer\">\r\n    <option name=\"done\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\Java\\apache-maven-3.6.1-bin\\apache-maven-3.6.1\\maven_repository\" />\r\n        <option name=\"mavenHome\" value=\"D:\\Java\\apache-maven-3.6.1-bin\\apache-maven-3.6.1\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\Java\\apache-maven-3.6.1-bin\\apache-maven-3.6.1\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenRunner\">\r\n    <option name=\"delegateBuildToMaven\" value=\"true\" />\r\n    <option name=\"jreName\" value=\"1.8\" />\r\n    <option name=\"skipTests\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2SX7u0iOi1OWrdj0z3YzbLWZHqu\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\r\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\r\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\r\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"jdk.selected.JAVA_MODULE\" value=\"1.8\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15917969\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.26327944\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"editor.preferences.tabs\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ReactorSettings\">\r\n    <option name=\"notificationShown\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Client\">\r\n    <configuration name=\"Client\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.ruoyi.business.designpattern.Factory.Simple.Client\" />\r\n      <module name=\"ruoyi-business\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.ruoyi.business.designpattern.Factory.Simple.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RuoYiApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"ruoyi-admin\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.ruoyi.RuoYiApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Client\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c735eea9-1ada-4c20-871b-aef5354bb8d2\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1689281290774</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1689281290774</updated>\r\n      <workItem from=\"1689281296986\" duration=\"5815000\" />\r\n      <workItem from=\"1689598692231\" duration=\"1929000\" />\r\n      <workItem from=\"1690102161776\" duration=\"615000\" />\r\n      <workItem from=\"1690256012090\" duration=\"909000\" />\r\n      <workItem from=\"1692281818991\" duration=\"7087000\" />\r\n      <workItem from=\"1692408662425\" duration=\"668000\" />\r\n      <workItem from=\"1692798111020\" duration=\"2117000\" />\r\n      <workItem from=\"1693490556440\" duration=\"19737000\" />\r\n      <workItem from=\"1693616839456\" duration=\"70000\" />\r\n      <workItem from=\"1694318717631\" duration=\"677000\" />\r\n      <workItem from=\"1694323736767\" duration=\"1370000\" />\r\n      <workItem from=\"1694437208025\" duration=\"561000\" />\r\n      <workItem from=\"1696941417152\" duration=\"6922000\" />\r\n      <workItem from=\"1696981387002\" duration=\"10770000\" />\r\n      <workItem from=\"1697067989849\" duration=\"3637000\" />\r\n      <workItem from=\"1697101432542\" duration=\"2516000\" />\r\n      <workItem from=\"1697154583249\" duration=\"11435000\" />\r\n      <workItem from=\"1697249568298\" duration=\"15383000\" />\r\n      <workItem from=\"1697299003771\" duration=\"1530000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"fix:开放验证码\">\r\n      <created>1697030575001</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697030575001</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"init: 设计模式\">\r\n      <created>1697257868771</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697257868771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"feat:软件设计原则\">\r\n      <created>1697273626084</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697273626084</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/feature/business\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"fix:开放验证码\" />\r\n    <MESSAGE value=\"init: 设计模式\" />\r\n    <MESSAGE value=\"feat:软件设计原则\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"feat:软件设计原则\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/.idea/workspace.xml	(date 1698126440010)
+@@ -29,19 +29,17 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="c735eea9-1ada-4c20-871b-aef5354bb8d2" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/CheesePizza.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/Client.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/GreekPizza.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/OrderPizza1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/PepperPizza.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/Pizza.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Factory/Simple/SimpleFactory.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/fastRequestCollection.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/resources/UML/AbstractFactory.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ruoyi-business/src/main/resources/UML/StringBuilder.png" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/target/maven-archiver/pom.properties" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/ruoyi-admin.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/target/ruoyi-admin.jar.original" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ruoyi-business/src/main/resources/designpattern-UML/SimpleFactory.png" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/src/main/resources/designpattern-UML/SimpleFactory.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ruoyi-business/designpattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/designpattern.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Builder/Client.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/src/test/java/com/ruoyi/business/SpringBootTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/target/maven-archiver/pom.properties" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+@@ -50,6 +48,7 @@
+       <change beforePath="$PROJECT_DIR$/ruoyi-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-common/target/maven-archiver/pom.properties" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/target/maven-archiver/pom.properties" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+@@ -74,6 +73,7 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="Interface" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -99,6 +99,7 @@
+     <option name="delegateBuildToMaven" value="true" />
+     <option name="jreName" value="1.8" />
+     <option name="skipTests" value="true" />
++    <option name="vmOptions" value="-Dfile.encoding=GBK" />
+   </component>
+   <component name="ProjectCodeStyleSettingsMigration">
+     <option name="version" value="1" />
+@@ -118,26 +119,40 @@
+     <property name="RequestMappingsPanelWidth1" value="75" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="project.structure.last.edited" value="Project" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot_03_web_work" />
++    <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15917969" />
+     <property name="project.structure.side.proportion" value="0.26327944" />
+-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
++    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="ReactorSettings">
+     <option name="notificationShown" value="true" />
+   </component>
+   <component name="RunManager" selected="Application.Client">
++    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.ruoyi.business.designpattern.Strategy.Client" />
++      <module name="ruoyi-business" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.ruoyi.business.designpattern.Strategy.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.ruoyi.business.designpattern.Factory.Simple.Client" />
++      <option name="MAIN_CLASS_NAME" value="com.ruoyi.business.designpattern.Builder.Client" />
+       <module name="ruoyi-business" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.ruoyi.business.designpattern.Factory.Simple.*" />
++          <option name="PATTERN" value="com.ruoyi.business.designpattern.Builder.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -145,13 +160,44 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="class" />
++    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.ruoyi.business.Main" />
++      <module name="ruoyi-business" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.ruoyi.business.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.ruoyi.business.designpattern.Decorator.Main" />
++      <module name="ruoyi-business" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.ruoyi.business.designpattern.Decorator.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="SpringBootTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="ruoyi-business" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.ruoyi.business.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.ruoyi.business" />
++      <option name="MAIN_CLASS_NAME" value="com.ruoyi.business.SpringBootTest" />
++      <option name="METHOD_NAME" value="test01" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -165,7 +211,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="JUnit.SpringBootTest.test01" />
++        <item itemvalue="Application.Main" />
++        <item itemvalue="Application.Main (1)" />
+         <item itemvalue="Application.Client" />
++        <item itemvalue="Application.Client (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -199,6 +249,22 @@
+       <workItem from="1697154583249" duration="11435000" />
+       <workItem from="1697249568298" duration="15383000" />
+       <workItem from="1697299003771" duration="1530000" />
++      <workItem from="1697339977775" duration="4833000" />
++      <workItem from="1697354522878" duration="7611000" />
++      <workItem from="1697414056617" duration="18364000" />
++      <workItem from="1697499900825" duration="18314000" />
++      <workItem from="1697586759436" duration="26375000" />
++      <workItem from="1697727219534" duration="1755000" />
++      <workItem from="1697759887850" duration="4317000" />
++      <workItem from="1697808416777" duration="14152000" />
++      <workItem from="1697971329043" duration="10096000" />
++      <workItem from="1698018342444" duration="1029000" />
++      <workItem from="1698062867921" duration="8314000" />
++      <workItem from="1698110951809" duration="122000" />
++      <workItem from="1698111114040" duration="85000" />
++      <workItem from="1698111230946" duration="297000" />
++      <workItem from="1698111568350" duration="123000" />
++      <workItem from="1698111707543" duration="5483000" />
+     </task>
+     <task id="LOCAL-00001" summary="fix:开放验证码">
+       <created>1697030575001</created>
+@@ -221,7 +287,98 @@
+       <option name="project" value="LOCAL" />
+       <updated>1697273626084</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="fix:简单工厂模式补充">
++      <created>1697355178931</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1697355178931</updated>
++    </task>
++    <task id="LOCAL-00005" summary="docs: 装饰者模式UML分析">
++      <created>1697365786837</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1697365786837</updated>
++    </task>
++    <task id="LOCAL-00006" summary="docs: 静态代理UML图">
++      <created>1697373499548</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1697373499548</updated>
++    </task>
++    <task id="LOCAL-00007" summary="feat:装饰者模式代码库">
++      <created>1697424335335</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1697424335335</updated>
++    </task>
++    <task id="LOCAL-00008" summary="feat:静态代理UML图">
++      <created>1697424360696</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1697424360696</updated>
++    </task>
++    <task id="LOCAL-00009" summary="feat:策略模式代码库">
++      <created>1697426993286</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1697426993286</updated>
++    </task>
++    <task id="LOCAL-00010" summary="feat:策略模式代码库">
++      <created>1697461036808</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1697461036808</updated>
++    </task>
++    <task id="LOCAL-00011" summary="feat:静态代理代码库">
++      <created>1697533047760</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1697533047760</updated>
++    </task>
++    <task id="LOCAL-00012" summary="feat:动态代理代码库">
++      <created>1697534306014</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1697534306014</updated>
++    </task>
++    <task id="LOCAL-00013" summary="feat:动态代理代码库">
++      <created>1697536867725</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1697536867725</updated>
++    </task>
++    <task id="LOCAL-00014" summary="fix: 策略模式类图">
++      <created>1697599737747</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1697599737747</updated>
++    </task>
++    <task id="LOCAL-00015" summary="fix:应用类图">
++      <created>1697619520922</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1697619520922</updated>
++    </task>
++    <task id="LOCAL-00016" summary="docs:设计模式文档信息">
++      <created>1698063500794</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1698063500795</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -238,7 +395,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="origin/feature/business" />
++                        <option value="origin/master" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -256,7 +413,18 @@
+     <MESSAGE value="fix:开放验证码" />
+     <MESSAGE value="init: 设计模式" />
+     <MESSAGE value="feat:软件设计原则" />
+-    <option name="LAST_COMMIT_MESSAGE" value="feat:软件设计原则" />
++    <MESSAGE value="fix:简单工厂模式补充" />
++    <MESSAGE value="docs: 装饰者模式UML分析" />
++    <MESSAGE value="docs: 静态代理UML图" />
++    <MESSAGE value="feat:装饰者模式代码库" />
++    <MESSAGE value="feat:静态代理UML图" />
++    <MESSAGE value="feat:策略模式代码库" />
++    <MESSAGE value="feat:静态代理代码库" />
++    <MESSAGE value="feat:动态代理代码库" />
++    <MESSAGE value="fix: 策略模式类图" />
++    <MESSAGE value="fix:应用类图" />
++    <MESSAGE value="docs:设计模式文档信息" />
++    <option name="LAST_COMMIT_MESSAGE" value="docs:设计模式文档信息" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: .idea/fastRequestCollection.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/fastRequestCollection.xml b/.idea/fastRequestCollection.xml
+new file mode 100644
+--- /dev/null	(date 1698111032277)
++++ b/.idea/fastRequestCollection.xml	(date 1698111032277)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="fastRequestCollection">
++    <option name="detail">
++      <CollectionDetail>
++        <option name="childList">
++          <list>
++            <CollectionDetail>
++              <option name="groupId" value="1" />
++              <option name="id" value="1" />
++              <option name="name" value="Default Group" />
++              <option name="type" value="1" />
++            </CollectionDetail>
++          </list>
++        </option>
++        <option name="groupId" value="-1" />
++        <option name="id" value="0" />
++        <option name="name" value="Root" />
++        <option name="type" value="1" />
++      </CollectionDetail>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: ruoyi-business/designpattern.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#### 一、软件开发原则\r\n##### 1.单一职责原则（SRP）\r\n\r\n> 对于类来说，**一个类应该只负责一项职责**。如果这个类A具有职责1和职责2，当职责1需求发生变化改变类A，可能造成职责2执行错误。\r\n> 目的：降低类的复杂度；提高类的可读性和可维护性；降低变更引起的风险；\r\n> 只有在逻辑足够简单，才可以在代码级违反单一职责原则；只有类中的方法足够少，可以在方法级别保持单一职责原则。\r\n> 否则**应当严格遵循单一职责原则**。\r\n\r\n##### 2.开闭原则（OCP）\r\n\r\n> 一个软件实体（类、模块、函数）应该对扩展（需求提供方）开放，对修改（功能使用方）关闭。\r\n> 当软件需要变化，尽量通过扩展软件实体的行为来实现变化，而不是通过修改已有的代码来实现变化。\r\n\r\n##### 3.依赖倒置原则（DIP）\r\n\r\n> 高层模块不应该依赖于低层模块，二者依赖于抽象。\r\n> 抽象不依赖于细节，细节（具体的实现类）依赖于抽象。它的核心是面向接口编程思想\r\n> 依赖传递方式：通过接口传递、构造器传递、Setter方法传递\r\n\r\n##### 4、接口隔离原则（ISP）\r\n\r\n> 客户端不应该依赖它不需要的接口，就是一个类对另一个类的依赖建立在最小接口上。\r\n> 对于类实现接口对接口拆分成为最小接口原则。\r\n\r\n##### 5.里氏替换原则（LSP）\r\n\r\n> 所有引用基类的方法必须透明的使用其子类的对象。\r\n\r\n##### 6、迪米特法则（最少知道原则）\r\n\r\n> 一个类对自己依赖的类知道的越少越好。陌生的类不要以局部变量出现在类的内部。\r\n> 对于被依赖的类不管多么复杂，尽量将逻辑封装在类的内部。\r\n> 迪米特法则只与直接的朋友通信。\r\n> 降低类之间的耦合，并不是要求完全没有依赖关系。\r\n\r\n#### 二、主流的设计模式\r\n\r\n##### 1、简单工厂模式（静态工厂模式）\r\n> 专门用来定义一个类负责创建对象，实现**对象创建和对象使用分离**。解决对象创建的耦合度。\r\n> 设计方案：定义一个可以实例化的对象类，封装对象的代码。\r\n\r\n**简单工厂模式需求UML类图** \r\n\r\n![SimpleFactory](src/main/resources/UML/SimpleFactory.png)\r\n\r\n##### 2、策略模式\r\n> 定义了算法家族，分别封装起来，让它们之间互相替换，此模式让算法变化，不会影响到使用算法的客户。\r\n> 策略模式核心思想：是用来封装几乎任何类型的规则，只要在分析过程中听到**不同业务时间应用不同的业务规则**，\r\n> 就可以考虑采用策略模式来处理这种变化的可能性。\r\n> 策略模式设计原则：把变化代码从不变代码中分离出来；针对接口编程；多用组合/聚合，少用继承\r\n> 策略模式体现了开闭原则，客户端要增加行为，只需要添加一种策略（或行为），避免多重的if ... else语句\r\n\r\n**策略模式需求UML类图** \r\n\r\n![Strategy](src/main/resources/UML/Strategy.png)\r\n\r\n企业微信消息格式api类图\r\n\r\n![qiyewehatmsg](src/main/resources/UML/qiyewehatmsg.png)\r\n\r\n##### 3、装饰者模式\r\n> 主要是**动态的将新功能(Features)特性附加到对象上**，在对象功能扩展上面比继承更有弹性，体现OCP原则。\r\n> 用来解决当有很多个类，需要增加新的种类，类的数量会增加，避免出现类爆炸。\r\n> 在增加功能类时，提高了代码可维护性。\r\n\r\n**装饰者模式需求UML类图**\r\n\r\n![Decorator](src/main/resources/UML/Decorator.png)\r\n\r\n> 记录问题：maven工程测试main方法中文乱码：maven -> Runner -> 配置参数 -Dfile.encoding=GBK\r\n\r\n参考：springboot项目中应用装饰者：https://juejin.cn/post/6990933352370929672#heading-3\r\n\r\n视频播放功能加上特效功能类图\r\n\r\n![vedio](src/main/resources/UML/vedio.png)\r\n\r\n##### 4、代理模式\r\n> 主要是为目标对象提供一个替身，控制这个目标对象的访问。主要目标在目标对象实现的基础上，增强额外的功能操作，达到扩展目标对象的目的。\r\n> 静态代理；主要是在不修改目标对象的功能前提下，通过代理对象对目标对象功能扩展，但是一旦接口增加方法，目标对象和被代理对象都要维护。\r\n\r\n**静态代理需求类图**\r\n![StaticProxy](src/main/resources/UML/StaticProxy.png)\r\n\r\n> 如果目标对象接口需要增加方法，同时维护目标对象实现类和代理对象。\r\n> 这种方式是满足代理对象对目标对象的功能方法扩展，体现了OCP原则。\r\n\r\n**JDK动态代理需求UML类图**\r\n![JDKDynamic](src/main/resources/UML/JDKDynamic.png)\r\n\r\ncglib代理\r\n> 目标对象只是单独一个的对象，并没有实现任何接口，使用目标对象子类来实现代理，这是cglib代理。\r\n> cglib可以在运行期扩展java类和实现java接口。在SpringAOP中实现方法拦截。\r\n> 在AOP中选择代理模式：目标对象实现接口选择JDK代理；目标对象不需要实现接口选择cglib代理。\r\n\r\n**cglib代理需求UML类图**\r\n![cglib](src/main/resources/UML/cglib.png)\r\n\r\n\r\n##### 5、工厂方法模式\r\n> 定义一个创建对象的抽象方法，由子类决定要实例化的类。将对象的实例化推迟到子类上。\r\n\r\n**工厂方法模式需求UML类图**\r\n![factoryMethod](src/main/resources/UML/factoryMethod.png)\r\n\r\n\r\n##### 6、原型模式\r\n\r\n\r\n\r\n##### 7、模板方法模式\r\n\r\n> 在一个抽象类(AbstractClass)中公开定义了执行它的方法模板，它的子类可以按需要的重写方法实现，调用以抽象类中定义的方式进行。\r\n> (ConcreteClass)定义了一个操作中的算法的骨架，将一些步骤延迟到子类中，使子类不改变算法结构就可以重定义该算法的某些**特定步骤**。\r\n> 模板方法的钩子方法：在模板方法的父类中，定义一个方法，默认不做任何事，子类可以视情况要不要覆盖。\r\n\r\n**模板方法模式需求UML类图**\r\n![factoryMethod](src/main/resources/UML/factoryMethod.png)\r\n\r\n**IoC源码应用模板方法模式**\r\n![IoC-templateMethod](src/main/resources/UML/IoC-templateMethod.png)\r\n\r\n> 基本思想：算法只存在一个地方(父类中)，易于修改。\r\n> 实现代码最大化的代码复用。父类的模板方法和已实现的某些步骤被子类继承而直接使用。\r\n> 一般模板方法加上final关键字，防止子类重写模板方法。\r\n> 适用场景：当要完成在某个过程，该过程执行一系列步骤，这一系列步骤步骤基本相同，但个别步骤在实现有所不同，考虑使用模板方法模式。\r\n\r\n##### 8、外观模式\r\n\r\n\r\n\r\n##### 9、建造者模式\r\n\r\n> 对象构建模式，可以将复杂的对象建造过程抽象出来（抽象类别），使这个抽象过程的不同实现方式可以构造出不同的表现（属性）的对象。\r\n> 通过一步一步创建一个复杂对象，允许用户只通过指定复杂对象的类型和内容就可以构建，用户不需要知道内部的具体细节。\r\n> 构成：Product(产品)、Builder(抽象建造者)、ConcreteBuilder(具体建造者)、Director(指挥者)\r\n\r\n**建造者模式需求UML类图**\r\n![builder](src/main/resources/UML/builder.png)\r\n\r\n##### 10、观察者模式\r\n\r\n\r\n##### 11、抽象工厂模式\r\n\r\n\r\n\r\n##### 12、状态模式\r\n\r\n\r\n##### 13、适配器模式\r\n\r\n\r\n##### 14、备忘录模式\r\n\r\n\r\n##### 15、组合模式\r\n\r\n\r\n\r\n##### 16、迭代器模式\r\n\r\n\r\n##### 17、单例模式\r\n\r\n\r\n##### 18、桥接模式\r\n\r\n\r\n##### 19、命令模式\r\n\r\n\r\n##### 20、职责链模式\r\n\r\n\r\n\r\n##### 21、中介者模式\r\n\r\n\r\n##### 22、享元模式\r\n\r\n\r\n##### 23、解释器模式\r\n\r\n\r\n##### 24、访问者模式\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/designpattern.md b/ruoyi-business/designpattern.md
+--- a/ruoyi-business/designpattern.md	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/designpattern.md	(date 1698113356892)
+@@ -115,7 +115,7 @@
+ > 模板方法的钩子方法：在模板方法的父类中，定义一个方法，默认不做任何事，子类可以视情况要不要覆盖。
+ 
+ **模板方法模式需求UML类图**
+-![factoryMethod](src/main/resources/UML/factoryMethod.png)
++![templateMethod](src/main/resources/UML/templateMethod.png)
+ 
+ **IoC源码应用模板方法模式**
+ ![IoC-templateMethod](src/main/resources/UML/IoC-templateMethod.png)
+@@ -138,11 +138,19 @@
+ **建造者模式需求UML类图**
+ ![builder](src/main/resources/UML/builder.png)
+ 
++**StringBuilder源码应用建造者模式**
++![StringBuilder](src/main/resources/UML/StringBuilder.png)
++
+ ##### 10、观察者模式
+ 
+ 
+ ##### 11、抽象工厂模式
+ 
++**抽象工厂模式需求UML类图**
++![AbstractFactory](src/main/resources/UML/AbstractFactory.png)
++
++> 在设计层面抽象工厂接口和具体实现的工厂子类，让单个简单工厂变成工厂簇
++> 便于代码扩展和维护。根据创建对象类型对应工厂子类。
+ 
+ 
+ ##### 12、状态模式
+@@ -150,6 +158,11 @@
+ 
+ ##### 13、适配器模式
+ 
++> 一个类的接口可以转换成所期望的另一类的接口，它的目的是让接口达到兼容性。
++> 适配器模式为了解决接口不匹配问题。分别有类、对象、接口适配器，
++> 在用户角度看不到被适配者，从用户反馈感觉只和目标接口交互。
++
++
+ 
+ ##### 14、备忘录模式
+ 
+Index: ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>com\\ruoyi\\business\\SpringBootTest.class\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst b/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+--- a/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst	(date 1697994397167)
+@@ -1,1 +1,3 @@
++com\ruoyi\business\fastjson\fastJsonTest$1.class
++com\ruoyi\business\fastjson\fastJsonTest.class
+ com\ruoyi\business\SpringBootTest.class
+Index: ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-business\\src\\test\\java\\com\\ruoyi\\business\\SpringBootTest.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst b/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+--- a/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst	(date 1697767410851)
+@@ -1,1 +1,2 @@
+-E:\code\RuoYi-Vue\ruoyi-business\src\test\java\com\ruoyi\business\SpringBootTest.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\test\java\com\ruoyi\business\fastjson\fastJsonTest.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\test\java\com\ruoyi\business\SpringBootTest.java
+Index: ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\security\\handle\\AuthenticationEntryPointImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\UserDetailsServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\aspectj\\RateLimiterAspect.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\CaptchaConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\FastJson2JsonRedisSerializer.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\security\\context\\PermissionContextHolder.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\SysPermissionService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\KaptchaTextCreator.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\security\\handle\\LogoutSuccessHandlerImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\interceptor\\RepeatSubmitInterceptor.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\domain\\Server.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\exception\\GlobalExceptionHandler.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\manager\\AsyncManager.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\datasource\\DynamicDataSourceContextHolder.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\datasource\\DynamicDataSource.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\RedisConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\SysPasswordService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\ThreadPoolConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\ServerConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\security\\context\\AuthenticationContextHolder.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\ResourcesConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\manager\\factory\\AsyncFactory.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\SysLoginService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\SecurityConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\interceptor\\impl\\SameUrlDataInterceptor.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\PermissionService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\MyBatisConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\properties\\PermitAllUrlProperties.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\domain\\server\\Mem.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\aspectj\\DataScopeAspect.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\ApplicationConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\TokenService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\aspectj\\LogAspect.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\domain\\server\\Cpu.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\domain\\server\\SysFile.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\domain\\server\\Sys.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\manager\\ShutdownManager.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\domain\\server\\Jvm.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\DruidConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\properties\\DruidProperties.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\security\\filter\\JwtAuthenticationTokenFilter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\web\\service\\SysRegisterService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\config\\FilterConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-framework\\src\\main\\java\\com\\ruoyi\\framework\\aspectj\\DataSourceAspect.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697994382434)
+@@ -1,44 +1,44 @@
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\handle\AuthenticationEntryPointImpl.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\UserDetailsServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\RateLimiterAspect.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\CaptchaConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\FastJson2JsonRedisSerializer.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\context\PermissionContextHolder.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysPermissionService.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\KaptchaTextCreator.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\handle\LogoutSuccessHandlerImpl.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\interceptor\RepeatSubmitInterceptor.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\Server.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\exception\GlobalExceptionHandler.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\manager\AsyncManager.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\datasource\DynamicDataSourceContextHolder.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\datasource\DynamicDataSource.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\RedisConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysPasswordService.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ThreadPoolConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ServerConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\context\AuthenticationContextHolder.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ResourcesConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\manager\factory\AsyncFactory.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysLoginService.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\SecurityConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\interceptor\impl\SameUrlDataInterceptor.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\PermissionService.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\MyBatisConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\properties\PermitAllUrlProperties.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Mem.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\DataScopeAspect.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ApplicationConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\TokenService.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\LogAspect.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Cpu.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\SysFile.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Sys.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\manager\ShutdownManager.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Jvm.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\DruidConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\properties\DruidProperties.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\filter\JwtAuthenticationTokenFilter.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysRegisterService.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\FilterConfig.java
+-E:\code\RuoYi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\DataSourceAspect.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\handle\AuthenticationEntryPointImpl.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\UserDetailsServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\RateLimiterAspect.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\CaptchaConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\FastJson2JsonRedisSerializer.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\context\PermissionContextHolder.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysPermissionService.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\KaptchaTextCreator.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\handle\LogoutSuccessHandlerImpl.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\interceptor\RepeatSubmitInterceptor.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\Server.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\exception\GlobalExceptionHandler.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\manager\AsyncManager.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\datasource\DynamicDataSourceContextHolder.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\datasource\DynamicDataSource.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\RedisConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysPasswordService.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ThreadPoolConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ServerConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\context\AuthenticationContextHolder.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ResourcesConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\manager\factory\AsyncFactory.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysLoginService.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\SecurityConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\interceptor\impl\SameUrlDataInterceptor.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\PermissionService.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\MyBatisConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\properties\PermitAllUrlProperties.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Mem.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\DataScopeAspect.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\ApplicationConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\TokenService.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\LogAspect.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Cpu.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\SysFile.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Sys.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\manager\ShutdownManager.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\domain\server\Jvm.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\DruidConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\properties\DruidProperties.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\security\filter\JwtAuthenticationTokenFilter.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\web\service\SysRegisterService.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\config\FilterConfig.java
++E:\code\Ruoyi-Vue\ruoyi-framework\src\main\java\com\ruoyi\framework\aspectj\DataSourceAspect.java
+Index: ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.ruoyi.framework.web.service;\r\n\r\nimport javax.annotation.Resource;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.security.authentication.AuthenticationManager;\r\nimport org.springframework.security.authentication.BadCredentialsException;\r\nimport org.springframework.security.authentication.UsernamePasswordAuthenticationToken;\r\nimport org.springframework.security.core.Authentication;\r\nimport org.springframework.stereotype.Component;\r\nimport com.ruoyi.common.constant.CacheConstants;\r\nimport com.ruoyi.common.constant.Constants;\r\nimport com.ruoyi.common.constant.UserConstants;\r\nimport com.ruoyi.common.core.domain.entity.SysUser;\r\nimport com.ruoyi.common.core.domain.model.LoginUser;\r\nimport com.ruoyi.common.core.redis.RedisCache;\r\nimport com.ruoyi.common.exception.ServiceException;\r\nimport com.ruoyi.common.exception.user.BlackListException;\r\nimport com.ruoyi.common.exception.user.CaptchaException;\r\nimport com.ruoyi.common.exception.user.CaptchaExpireException;\r\nimport com.ruoyi.common.exception.user.UserNotExistsException;\r\nimport com.ruoyi.common.exception.user.UserPasswordNotMatchException;\r\nimport com.ruoyi.common.utils.DateUtils;\r\nimport com.ruoyi.common.utils.MessageUtils;\r\nimport com.ruoyi.common.utils.StringUtils;\r\nimport com.ruoyi.common.utils.ip.IpUtils;\r\nimport com.ruoyi.framework.manager.AsyncManager;\r\nimport com.ruoyi.framework.manager.factory.AsyncFactory;\r\nimport com.ruoyi.framework.security.context.AuthenticationContextHolder;\r\nimport com.ruoyi.system.service.ISysConfigService;\r\nimport com.ruoyi.system.service.ISysUserService;\r\n\r\n/**\r\n * 登录校验方法\r\n * \r\n * @author ruoyi\r\n */\r\n@Component\r\npublic class SysLoginService\r\n{\r\n    @Autowired\r\n    private TokenService tokenService;\r\n\r\n    @Resource\r\n    private AuthenticationManager authenticationManager;\r\n\r\n    @Autowired\r\n    private RedisCache redisCache;\r\n    \r\n    @Autowired\r\n    private ISysUserService userService;\r\n\r\n    @Autowired\r\n    private ISysConfigService configService;\r\n\r\n    /**\r\n     * 登录验证\r\n     * \r\n     * @param username 用户名\r\n     * @param password 密码\r\n     * @param code 验证码\r\n     * @param uuid 唯一标识\r\n     * @return 结果\r\n     */\r\n    public String login(String username, String password, String code, String uuid)\r\n    {\r\n        // 验证码校验\r\n        validateCaptcha(username, code, uuid);\r\n        // 登录前置校验\r\n        loginPreCheck(username, password);\r\n        // 用户验证\r\n        Authentication authentication = null;\r\n        try\r\n        {\r\n            UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(username, password);\r\n            AuthenticationContextHolder.setContext(authenticationToken);\r\n            // 该方法会去调用UserDetailsServiceImpl.loadUserByUsername\r\n            authentication = authenticationManager.authenticate(authenticationToken);\r\n        }\r\n        catch (Exception e)\r\n        {\r\n            if (e instanceof BadCredentialsException)\r\n            {\r\n                AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"user.password.not.match\")));\r\n                throw new UserPasswordNotMatchException();\r\n            }\r\n            else\r\n            {\r\n                AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, e.getMessage()));\r\n                throw new ServiceException(e.getMessage());\r\n            }\r\n        }\r\n        finally\r\n        {\r\n            AuthenticationContextHolder.clearContext();\r\n        }\r\n        AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_SUCCESS, MessageUtils.message(\"user.login.success\")));\r\n        LoginUser loginUser = (LoginUser) authentication.getPrincipal();\r\n        recordLoginInfo(loginUser.getUserId());\r\n        // 生成token\r\n        return tokenService.createToken(loginUser);\r\n    }\r\n\r\n    /**\r\n     * 校验验证码\r\n     * \r\n     * @param username 用户名\r\n     * @param code 验证码\r\n     * @param uuid 唯一标识\r\n     * @return 结果\r\n     */\r\n    public void validateCaptcha(String username, String code, String uuid)\r\n    {\r\n        boolean captchaEnabled = configService.selectCaptchaEnabled();\r\n        if (captchaEnabled)\r\n        {\r\n            String verifyKey = CacheConstants.CAPTCHA_CODE_KEY + StringUtils.nvl(uuid, \"\");\r\n            String captcha = redisCache.getCacheObject(verifyKey);\r\n            redisCache.deleteObject(verifyKey);\r\n            if (captcha == null)\r\n            {\r\n                AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"user.jcaptcha.expire\")));\r\n                throw new CaptchaExpireException();\r\n            }\r\n            if (!code.equalsIgnoreCase(captcha))\r\n            {\r\n                AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"user.jcaptcha.error\")));\r\n                throw new CaptchaException();\r\n            }\r\n        }\r\n    }\r\n\r\n    /**\r\n     * 登录前置校验\r\n     * @param username 用户名\r\n     * @param password 用户密码\r\n     */\r\n    public void loginPreCheck(String username, String password)\r\n    {\r\n        // 用户名或密码为空 错误\r\n        if (StringUtils.isEmpty(username) || StringUtils.isEmpty(password))\r\n        {\r\n            AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"not.null\")));\r\n            throw new UserNotExistsException();\r\n        }\r\n        // 密码如果不在指定范围内 错误\r\n        if (password.length() < UserConstants.PASSWORD_MIN_LENGTH\r\n                || password.length() > UserConstants.PASSWORD_MAX_LENGTH)\r\n        {\r\n            AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"user.password.not.match\")));\r\n            throw new UserPasswordNotMatchException();\r\n        }\r\n        // 用户名不在指定范围内 错误\r\n        if (username.length() < UserConstants.USERNAME_MIN_LENGTH\r\n                || username.length() > UserConstants.USERNAME_MAX_LENGTH)\r\n        {\r\n            AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"user.password.not.match\")));\r\n            throw new UserPasswordNotMatchException();\r\n        }\r\n        // IP黑名单校验\r\n        String blackStr = configService.selectConfigByKey(\"sys.login.blackIPList\");\r\n        if (IpUtils.isMatchedIp(blackStr, IpUtils.getIpAddr()))\r\n        {\r\n            AsyncManager.me().execute(AsyncFactory.recordLogininfor(username, Constants.LOGIN_FAIL, MessageUtils.message(\"login.blocked\")));\r\n            throw new BlackListException();\r\n        }\r\n    }\r\n\r\n    /**\r\n     * 记录登录信息\r\n     *\r\n     * @param userId 用户ID\r\n     */\r\n    public void recordLoginInfo(Long userId)\r\n    {\r\n        SysUser sysUser = new SysUser();\r\n        sysUser.setUserId(userId);\r\n        sysUser.setLoginIp(IpUtils.getIpAddr());\r\n        sysUser.setLoginDate(DateUtils.getNowDate());\r\n        userService.updateUserProfile(sysUser);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java b/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java
+--- a/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-framework/src/main/java/com/ruoyi/framework/web/service/SysLoginService.java	(date 1697698128492)
+@@ -64,7 +64,7 @@
+     public String login(String username, String password, String code, String uuid)
+     {
+         // 验证码校验
+-        validateCaptcha(username, code, uuid);
++//        validateCaptcha(username, code, uuid);
+         // 登录前置校验
+         loginPreCheck(username, password);
+         // 用户验证
+Index: ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>com\\ruoyi\\business\\utils\\JsonToExcelUtils$Problems.class\r\ncom\\ruoyi\\business\\utils\\JsonToExcelUtils$QuestionnaireInfo.class\r\ncom\\ruoyi\\business\\utils\\JsonToExcelUtils$FirstProperty.class\r\ncom\\ruoyi\\business\\utils\\SendMailUtil.class\r\ncom\\ruoyi\\business\\domain\\SendMail.class\r\ncom\\ruoyi\\business\\utils\\JsonToExcelUtils$SecondProperty.class\r\ncom\\ruoyi\\business\\controller\\MailController.class\r\ncom\\ruoyi\\business\\utils\\DeployParameter.class\r\ncom\\ruoyi\\business\\utils\\JsonToExcelUtils.class\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst b/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+--- a/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	(date 1697994396057)
+@@ -1,9 +1,63 @@
+-com\ruoyi\business\utils\JsonToExcelUtils$Problems.class
+-com\ruoyi\business\utils\JsonToExcelUtils$QuestionnaireInfo.class
+-com\ruoyi\business\utils\JsonToExcelUtils$FirstProperty.class
++com\ruoyi\business\designpattern\Factory\Simple\GreekPizza.class
++com\ruoyi\business\domain\vo\idBandCard.class
+ com\ruoyi\business\utils\SendMailUtil.class
+-com\ruoyi\business\domain\SendMail.class
+-com\ruoyi\business\utils\JsonToExcelUtils$SecondProperty.class
+-com\ruoyi\business\controller\MailController.class
++com\ruoyi\business\service\impl\VideoServiceImpl.class
++com\ruoyi\business\designpattern\Proxy\StaticProxy\ITeacherDao.class
++com\ruoyi\business\designpattern\Decorator\Chocolate.class
++com\ruoyi\business\designpattern\Proxy\StaticProxy\ProxyTeacherDao.class
++com\ruoyi\business\controller\demoController.class
++com\ruoyi\business\designpattern\Factory\Simple\Pizza.class
++com\ruoyi\business\designpattern\Strategy\WildDuck.class
++com\ruoyi\business\designpattern\Decorator\Client.class
+ com\ruoyi\business\utils\DeployParameter.class
++com\ruoyi\business\designpattern\Factory\Simple\CheesePizza.class
++com\ruoyi\business\designpattern\Strategy\Noswimbehavior.class
++com\ruoyi\business\designpattern\Proxy\JDKProxy\Client.class
++com\ruoyi\business\utils\JsonToExcelUtils$FirstProperty.class
++com\ruoyi\business\designpattern\Strategy\Swimbehavior.class
++com\ruoyi\business\config\FastjsonConvertConfig.class
++com\ruoyi\business\designpattern\TemplateMethod\client.class
++com\ruoyi\business\designpattern\Strategy\Badflybehavior.class
++com\ruoyi\business\designpattern\Factory\Simple\PepperPizza.class
++com\ruoyi\business\designpattern\Proxy\JDKProxy\TeacherDao.class
+ com\ruoyi\business\utils\JsonToExcelUtils.class
++com\ruoyi\business\designpattern\Bridge\Client.class
++com\ruoyi\business\designpattern\Factory\FactoryMethod\Pizza.class
++com\ruoyi\business\utils\JsonToExcelUtils$QuestionnaireInfo.class
++com\ruoyi\business\designpattern\Strategy\Noflybehavior.class
++com\ruoyi\business\domain\Beauty.class
++com\ruoyi\business\config\MyBigDecimalSerializer.class
++com\ruoyi\business\designpattern\Decorator\Drinks.class
++com\ruoyi\business\designpattern\Proxy\cglib\ProxyFactory.class
++com\ruoyi\business\designpattern\Strategy\PekingDuck.class
++com\ruoyi\business\designpattern\Strategy\Duck.class
++com\ruoyi\business\controller\MailController.class
++com\ruoyi\business\controller\VideoController.class
++com\ruoyi\business\utils\JsonToExcelUtils$Problems.class
++com\ruoyi\business\designpattern\Factory\Simple\OrderPizza1.class
++com\ruoyi\business\domain\VedioDecorator.class
++com\ruoyi\business\designpattern\Proxy\StaticProxy\TeacherDao.class
++com\ruoyi\business\designpattern\Decorator\Espressa.class
++com\ruoyi\business\service\IVideoService.class
++com\ruoyi\business\designpattern\Strategy\Badswimbehavior.class
++com\ruoyi\business\designpattern\Strategy\Goodswimbehavior.class
++com\ruoyi\business\domain\Filters.class
++com\ruoyi\business\designpattern\Decorator\Milk.class
++com\ruoyi\business\designpattern\Decorator\Coffee.class
++com\ruoyi\business\designpattern\Decorator\LongBlack.class
++com\ruoyi\business\designpattern\Proxy\JDKProxy\ProxyFactory$1.class
++com\ruoyi\business\designpattern\Factory\Simple\SimpleFactory.class
++com\ruoyi\business\designpattern\Proxy\StaticProxy\Client.class
++com\ruoyi\business\domain\vo\User.class
++com\ruoyi\business\config\DecoratorConfig.class
++com\ruoyi\business\designpattern\Factory\Simple\Client.class
++com\ruoyi\business\designpattern\Proxy\cglib\Client.class
++com\ruoyi\business\utils\JsonToExcelUtils$SecondProperty.class
++com\ruoyi\business\designpattern\Proxy\JDKProxy\ProxyFactory.class
++com\ruoyi\business\designpattern\Strategy\Flybehavior.class
++com\ruoyi\business\designpattern\Decorator\Decorator.class
++com\ruoyi\business\designpattern\Strategy\Client.class
++com\ruoyi\business\designpattern\Proxy\cglib\TeacherDao.class
++com\ruoyi\business\domain\SendMail.class
++com\ruoyi\business\designpattern\Proxy\JDKProxy\ITeacherDao.class
++com\ruoyi\business\designpattern\Strategy\Goodflybehavior.class
+Index: ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Bridge/Client.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Bridge/Client.java b/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Builder/Client.java
+rename from ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Bridge/Client.java
+rename to ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Builder/Client.java
+--- a/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Bridge/Client.java	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/src/main/java/com/ruoyi/business/designpattern/Builder/Client.java	(date 1698065184400)
+@@ -1,4 +1,4 @@
+-package com.ruoyi.business.designpattern.Bridge;
++package com.ruoyi.business.designpattern.Builder;
+ 
+ /**
+  * @Author Husp
+Index: ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\domain\\GenTable.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\domain\\GenTableColumn.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\mapper\\GenTableMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\util\\VelocityUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\util\\VelocityInitializer.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\util\\GenUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\service\\GenTableColumnServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\service\\IGenTableColumnService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\service\\GenTableServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\service\\IGenTableService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\config\\GenConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\mapper\\GenTableColumnMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-generator\\src\\main\\java\\com\\ruoyi\\generator\\controller\\GenController.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697994388636)
+@@ -1,13 +1,13 @@
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\domain\GenTable.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\domain\GenTableColumn.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\mapper\GenTableMapper.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\util\VelocityUtils.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\util\VelocityInitializer.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\util\GenUtils.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\GenTableColumnServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\IGenTableColumnService.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\GenTableServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\IGenTableService.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\config\GenConfig.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\mapper\GenTableColumnMapper.java
+-E:\code\RuoYi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\controller\GenController.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\domain\GenTable.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\domain\GenTableColumn.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\mapper\GenTableMapper.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\util\VelocityUtils.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\util\VelocityInitializer.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\util\GenUtils.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\GenTableColumnServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\IGenTableColumnService.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\GenTableServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\service\IGenTableService.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\config\GenConfig.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\mapper\GenTableColumnMapper.java
++E:\code\Ruoyi-Vue\ruoyi-generator\src\main\java\com\ruoyi\generator\controller\GenController.java
+Index: ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-business\\src\\main\\java\\com\\ruoyi\\business\\controller\\MailController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-business\\src\\main\\java\\com\\ruoyi\\business\\utils\\DeployParameter.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-business\\src\\main\\java\\com\\ruoyi\\business\\domain\\SendMail.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-business\\src\\main\\java\\com\\ruoyi\\business\\utils\\JsonToExcelUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-business\\src\\main\\java\\com\\ruoyi\\business\\utils\\SendMailUtil.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697767823277)
+@@ -1,5 +1,57 @@
+-E:\code\RuoYi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\controller\MailController.java
+-E:\code\RuoYi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\utils\DeployParameter.java
+-E:\code\RuoYi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\SendMail.java
+-E:\code\RuoYi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\utils\JsonToExcelUtils.java
+-E:\code\RuoYi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\utils\SendMailUtil.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\CheesePizza.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\cglib\ProxyFactory.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Flybehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\SendMail.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\FactoryMethod\Pizza.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Coffee.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\JDKProxy\Client.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\WildDuck.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\OrderPizza1.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Duck.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\config\FastjsonConvertConfig.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Noswimbehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\vo\User.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\Filters.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Client.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Chocolate.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\JDKProxy\ITeacherDao.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Espressa.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\Beauty.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\JDKProxy\TeacherDao.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\vo\idBandCard.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Goodflybehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\controller\VideoController.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Swimbehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Noflybehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\service\IVideoService.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Drinks.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Decorator.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\domain\VedioDecorator.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\PekingDuck.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\JDKProxy\ProxyFactory.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\Main.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Badflybehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Client.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\StaticProxy\ITeacherDao.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\utils\SendMailUtil.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\config\DecoratorConfig.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\config\MyBigDecimalSerializer.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\LongBlack.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\utils\JsonToExcelUtils.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\Client.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\PepperPizza.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\Pizza.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Decorator\Milk.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\controller\MailController.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\service\impl\VideoServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\StaticProxy\Client.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\StaticProxy\ProxyTeacherDao.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\cglib\Client.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Badswimbehavior.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\controller\demoController.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\SimpleFactory.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\cglib\TeacherDao.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\utils\DeployParameter.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Proxy\StaticProxy\TeacherDao.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Factory\Simple\GreekPizza.java
++E:\code\Ruoyi-Vue\ruoyi-business\src\main\java\com\ruoyi\business\designpattern\Strategy\Goodswimbehavior.java
+Index: ruoyi-generator/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:20 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-generator\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-generator/target/maven-archiver/pom.properties b/ruoyi-generator/target/maven-archiver/pom.properties
+--- a/ruoyi-generator/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-generator/target/maven-archiver/pom.properties	(date 1697699882288)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:20 CST 2023
++#Thu Oct 19 15:18:02 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-generator
+Index: ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\service\\ISysJobService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\task\\RyTask.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\util\\QuartzJobExecution.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\controller\\SysJobController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\mapper\\SysJobMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\util\\CronUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\util\\JobInvokeUtil.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\config\\ScheduleConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\service\\ISysJobLogService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\controller\\SysJobLogController.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\mapper\\SysJobLogMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\util\\ScheduleUtils.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\util\\QuartzDisallowConcurrentExecution.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\service\\impl\\SysJobServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\util\\AbstractQuartzJob.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\domain\\SysJobLog.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\service\\impl\\SysJobLogServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-quartz\\src\\main\\java\\com\\ruoyi\\quartz\\domain\\SysJob.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-quartz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697699881637)
+@@ -1,18 +1,18 @@
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\ISysJobService.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\task\RyTask.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\QuartzJobExecution.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\controller\SysJobController.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\mapper\SysJobMapper.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\CronUtils.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\JobInvokeUtil.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\config\ScheduleConfig.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\ISysJobLogService.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\controller\SysJobLogController.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\mapper\SysJobLogMapper.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\ScheduleUtils.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\QuartzDisallowConcurrentExecution.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\impl\SysJobServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\AbstractQuartzJob.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\domain\SysJobLog.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\impl\SysJobLogServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\domain\SysJob.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\ISysJobService.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\task\RyTask.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\QuartzJobExecution.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\controller\SysJobController.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\mapper\SysJobMapper.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\CronUtils.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\JobInvokeUtil.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\config\ScheduleConfig.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\ISysJobLogService.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\controller\SysJobLogController.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\mapper\SysJobLogMapper.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\ScheduleUtils.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\QuartzDisallowConcurrentExecution.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\impl\SysJobServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\util\AbstractQuartzJob.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\domain\SysJobLog.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\service\impl\SysJobLogServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-quartz\src\main\java\com\ruoyi\quartz\domain\SysJob.java
+Index: ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysUserMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysOperLog.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysRoleMenu.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysOperLogServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysPost.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysDeptMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysDictTypeService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysLogininforService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysRoleServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysMenuService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysDeptService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysConfig.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysNoticeMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysOperLogService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysRoleMenuMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysRoleDept.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysDictDataMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysRoleService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysRoleDeptMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysDictTypeServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysRoleMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysNoticeService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysUserOnlineServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysUserRoleMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysUserService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysDictDataServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysUserServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysUserOnline.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysLogininforMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysDictTypeMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysPostService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysPostMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysNotice.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysUserRole.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysLogininfor.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\vo\\MetaVo.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysDeptServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysMenuMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysConfigService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysUserPostMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysNoticeServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysUserOnlineService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\ISysDictDataService.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\vo\\RouterVo.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysLogininforServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysPostServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysCache.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysConfigMapper.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\domain\\SysUserPost.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysConfigServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\service\\impl\\SysMenuServiceImpl.java\r\nE:\\code\\RuoYi-Vue\\ruoyi-system\\src\\main\\java\\com\\ruoyi\\system\\mapper\\SysOperLogMapper.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1697994381313)
+@@ -1,52 +1,52 @@
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysUserMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysOperLog.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysRoleMenu.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysOperLogServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysPost.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysDeptMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysDictTypeService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysLogininforService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysRoleServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysMenuService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysDeptService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysConfig.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysNoticeMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysOperLogService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysRoleMenuMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysRoleDept.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysDictDataMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysRoleService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysRoleDeptMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysDictTypeServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysRoleMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysNoticeService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysUserOnlineServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysUserRoleMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysUserService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysDictDataServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysUserServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysUserOnline.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysLogininforMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysDictTypeMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysPostService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysPostMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysNotice.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysUserRole.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysLogininfor.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\vo\MetaVo.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysDeptServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysMenuMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysConfigService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysUserPostMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysNoticeServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysUserOnlineService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysDictDataService.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\vo\RouterVo.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysLogininforServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysPostServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysCache.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysConfigMapper.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysUserPost.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysConfigServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysMenuServiceImpl.java
+-E:\code\RuoYi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysOperLogMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysUserMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysOperLog.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysRoleMenu.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysOperLogServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysPost.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysDeptMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysDictTypeService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysLogininforService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysRoleServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysMenuService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysDeptService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysConfig.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysNoticeMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysOperLogService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysRoleMenuMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysRoleDept.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysDictDataMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysRoleService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysRoleDeptMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysDictTypeServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysRoleMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysNoticeService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysUserOnlineServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysUserRoleMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysUserService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysDictDataServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysUserServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysUserOnline.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysLogininforMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysDictTypeMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysPostService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysPostMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysNotice.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysUserRole.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysLogininfor.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\vo\MetaVo.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysDeptServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysMenuMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysConfigService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysUserPostMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysNoticeServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysUserOnlineService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\ISysDictDataService.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\vo\RouterVo.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysLogininforServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysPostServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysCache.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysConfigMapper.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\domain\SysUserPost.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysConfigServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\service\impl\SysMenuServiceImpl.java
++E:\code\Ruoyi-Vue\ruoyi-system\src\main\java\com\ruoyi\system\mapper\SysOperLogMapper.java
+Index: ruoyi-framework/target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven\r\n#Mon Sep 11 22:09:17 CST 2023\r\nversion=3.8.6\r\ngroupId=com.ruoyi\r\nartifactId=ruoyi-framework\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>NATIVE_TO_ASCII_UTF-8
+===================================================================
+diff --git a/ruoyi-framework/target/maven-archiver/pom.properties b/ruoyi-framework/target/maven-archiver/pom.properties
+--- a/ruoyi-framework/target/maven-archiver/pom.properties	(revision 716b83394ecc2114942aa9069903628495163470)
++++ b/ruoyi-framework/target/maven-archiver/pom.properties	(date 1697699880942)
+@@ -1,5 +1,5 @@
+ #Generated by Maven
+-#Mon Sep 11 22:09:17 CST 2023
++#Thu Oct 19 15:18:00 CST 2023
+ version=3.8.6
+ groupId=com.ruoyi
+ artifactId=ruoyi-framework
