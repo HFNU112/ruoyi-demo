@@ -157,6 +157,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- zxing-javase-Qr -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
