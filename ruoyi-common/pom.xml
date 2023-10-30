@@ -133,7 +133,7 @@
             <artifactId>javax.servlet-api</artifactId>
         </dependency>
 
-        <!--mail整合mail-->
+        <!-- javaMail -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
