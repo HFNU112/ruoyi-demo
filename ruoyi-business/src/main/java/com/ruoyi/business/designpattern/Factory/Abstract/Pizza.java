@@ -1,4 +1,4 @@
-package com.ruoyi.business.designpattern.Factory.FactoryMethod;
+package com.ruoyi.business.designpattern.Factory.Abstract;
 
 /**
  * @author: shunpeng.hu
@@ -22,11 +22,11 @@ public abstract class Pizza {
 
     // 切披萨
     public void cut(){
-        System.out.println(name + "is cutting ...");
+        System.out.println(name + " is cutting ... ");
     }
 
     // 打包披萨
     public void box(){
-        System.out.println(name + "is boxing ...");
+        System.out.println(name + "is boxing ... ");
     }
 }
