@@ -11,19 +11,24 @@ import java.util.List;
  */
 public class Client {
 
-    //    Iterator
+    // Iterator
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        Iterator<Integer> iterator = list.iterator();
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
+//        List<Integer> list = new ArrayList<>();
+//        list.add(1);
+//        list.add(2);
+//        Iterator<Integer> iterator = list.iterator();
+//        while (iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
+//
+//        Hashtable<Integer, String> hashtable = new Hashtable<>();
+//        hashtable.put(1, "aaa");
+//        hashtable.put(2, "bbb");
+//        hashtable.put(3, "ccc");
 
-        Hashtable<Integer, String> hashtable = new Hashtable<>();
-        hashtable.put(1, "aaa");
-        hashtable.put(2, "bbb");
-        hashtable.put(3, "ccc");
+        List<ICollegeAggregate> collegeList = new ArrayList<>();
+        collegeList.add(new ComputerCollege());
+        collegeList.add(new InfoCollege());
+        new OutputImpl().printCollege(collegeList);
     }
 }
