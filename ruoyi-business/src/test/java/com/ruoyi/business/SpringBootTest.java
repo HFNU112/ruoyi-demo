@@ -4,6 +4,7 @@ package com.ruoyi.business;
 import com.ruoyi.business.designpattern.Factory.Simple.OrderPizza1;
 import com.ruoyi.business.designpattern.Factory.Simple.SimpleFactory;
 
+import com.ruoyi.business.designpattern.responsibilityChain.*;
 import com.ruoyi.business.utils.QrUtils;
 import org.junit.Test;
 
