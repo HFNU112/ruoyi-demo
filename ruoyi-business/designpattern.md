@@ -58,7 +58,11 @@
 
 ![Strategy](src/main/resources/UML/Strategy.png)
 
-企业微信消息格式api类图
+eg: 电商优惠促销策略模式
+
+> 
+
+企业微信消息格式
 
 ![qiyewehatmsg](src/main/resources/UML/qiyewehatmsg.png)
 
@@ -73,6 +77,10 @@
 ![Decorator](src/main/resources/UML/Decorator.png)
 
 > 记录问题：maven工程测试main方法中文乱码：maven -> Runner -> 配置参数 -Dfile.encoding=GBK
+
+eg: 多级缓存架构装饰者模式
+
+> 
 
 参考：springboot项目中应用装饰者：https://juejin.cn/post/6990933352370929672#heading-3
 
@@ -102,6 +110,10 @@ cglib代理
 **cglib代理需求UML类图**
 ![cglib](src/main/resources/UML/cglib.png)
 
+eg: AOP底层代理模式
+
+> 
+
 ##### 5、工厂方法模式(Factory Method Pattern)
 > 定义一个创建对象的抽象方法，由子类决定要实例化的类。将对象的实例化推迟到子类上。
 
@@ -113,9 +125,16 @@ cglib代理
 
 > 原型模式是指用原型实例指定创建对象的种类，并且通过拷贝这些原型，创建新的对象。通过将一个原型对象传给那个要发动创建的对象，
 > 这个要发动创建的对象通过请求原型对象拷贝它们自己来实施创建。object.clone()
+> 创建新的对象比较复杂，可以利用原型模式简化对象创建过程。动态地获得对象运行时的状态。
 
 **原型模式需求UML类图**
 ![prototype](src/main/resources/UML/prototype.png)
+
+**两个概念**
+
+> 浅拷贝: 对于数据类型是基本类型的成员变量，浅拷贝直接进行值传递。将对象属性值复制到新的对象中。对于数据类型是引用类型的成员变量进行引用传递，
+> 就是将成员变量的引用值复制到新的对象。
+> 深拷贝：复制对象的所有基本数据类型的成员变量值，为所有引用数据类型的成员变量申请存储空间并复制引用对象。
 
 
 ##### 7、模板方法模式(Template Method Pattern)
@@ -126,6 +145,10 @@ cglib代理
 
 **模板方法模式需求UML类图**
 ![templateMethod](src/main/resources/UML/templateMethod.png)
+
+eg: RedisTemplate、JDBCTemplate模板方法模式
+
+> 
 
 **IoC源码应用模板方法模式**
 ![IoC-templateMethod](src/main/resources/UML/IoC-templateMethod.png)
@@ -158,6 +181,10 @@ cglib代理
 
 **观察者模式需求UML类图**
 ![observer](src/main/resources/UML/observer.png)
+
+eg: Zookeeper监听器观察者模式
+
+> 
 
 **jdk应用Observale源码类图**
 ![Observable](src/main/resources/UML/Observable.png)
@@ -241,6 +268,9 @@ cglib代理
 > 7.静态内部类：采用类加载机制保证初始化实例只有一个线程。类的静态属性只会在第一次加载类的时候初始化，jvm保证了线程的安全性。√
 > 8.枚举方式：防止反序列化创建新的对象。√
 
+eg: 线程池单例模式
+
+> 
 
 ##### 18、桥接模式(Bridge Pattern)
 
@@ -261,6 +291,10 @@ cglib代理
 
 **职责链模式需求UML类图**
 ![responsibility](src/main/resources/UML/responsibility.png)
+
+eg: 微服务网关鉴权责任链模式
+
+> 
 
 **实际项目中采购业务根据业务流程图完成类图及编码**
 ![采购业务](src/main/resources/UML/采购业务.png)
