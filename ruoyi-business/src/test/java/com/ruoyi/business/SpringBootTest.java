@@ -1,16 +1,22 @@
 package com.ruoyi.business;
 
 
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.JSONArray;
+import com.alibaba.fastjson2.JSONObject;
 import com.ruoyi.business.designpattern.Factory.Simple.OrderPizza1;
 import com.ruoyi.business.designpattern.Factory.Simple.SimpleFactory;
 
-import com.ruoyi.business.designpattern.responsibilityChain.*;
+import com.ruoyi.business.domain.UserRepresent;
+import com.ruoyi.business.utils.JsonToExcelUtils;
 import com.ruoyi.business.utils.QrUtils;
 import org.junit.Test;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import static com.ruoyi.business.utils.JsonToExcelUtils.toExcelByLocalJSONFile;
@@ -79,6 +85,25 @@ public class SpringBootTest {
     @Test
     public void testQrToPath(){
         QrUtils.writeToPath(200, 200, 5, "hello world", "C:\\Users\\hushunpeng\\Pictures\\a.png");
+    }
+
+    @Test
+    public void test02(){
+        String jsonStr = "{\n" +
+                "  \"kcAdmin\": \"username\",\n" +
+                "  \"kcPassword\": \"password\",\n" +
+                "  \"kcRealm\": \"realm\",\n" +
+                "  \"kcClient\": \"xxx\"\n" +
+                "}";
+        JSONObject jsonObject = JSON.parseObject(jsonStr);
+        Map map = JSON.parseObject(jsonStr, Map.class);
+        List list = JSON.parseObject(jsonStr, List.class);
+        UserRepresent userRepresent = JSON.parseObject(jsonStr, UserRepresent.class);
+        System.out.println("---------->" + jsonObject); //jsonObject={"kcAdmin":"username","kcPassword":"password","kcRealm":"realm","kcClient":"xxx"}
+        System.out.println("------>" + map);//map={kcAdmin=username, kcRealm=realm, kcClient=xxx, kcPassword=password}
+        System.out.println("------>" + list); //list=[{"kcAdmin":"username","kcPassword":"password","kcRealm":"realm","kcClient":"xxx"}]
+        System.out.println("------>" + userRepresent); //userRepresent=UserRepresent(userName=null, password=null, accountClientId=null, realm=null)
+        // UserRepresent(kcAdmin=username, kcPassword=password, kcRealm=realm, kcClient=xxx)
     }
 
 }
