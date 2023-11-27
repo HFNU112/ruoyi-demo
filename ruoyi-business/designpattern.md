@@ -94,12 +94,14 @@ eg: 多级缓存架构装饰者模式
 > 静态代理；主要是在不修改目标对象的功能前提下，通过代理对象对目标对象功能扩展，但是一旦接口增加方法，目标对象和被代理对象都要维护。
 
 **静态代理需求类图**
+
 ![StaticProxy](src/main/resources/UML/StaticProxy.png)
 
 > 如果目标对象接口需要增加方法，同时维护目标对象实现类和代理对象。
 > 这种方式是满足代理对象对目标对象的功能方法扩展，体现了OCP原则。
 
 **JDK动态代理需求UML类图**
+
 ![JDKDynamic](src/main/resources/UML/JDKDynamic.png)
 
 cglib代理
@@ -107,7 +109,8 @@ cglib代理
 > cglib可以在运行期扩展java类和实现java接口。在SpringAOP中实现方法拦截。
 > 在AOP中选择代理模式：目标对象实现接口选择JDK代理；目标对象不需要实现接口选择cglib代理。
 
-**cglib代理需求UML类图**
+**cglib动态代理需求UML类图**
+
 ![cglib](src/main/resources/UML/cglib.png)
 
 eg: AOP底层代理模式
@@ -118,8 +121,8 @@ eg: AOP底层代理模式
 > 定义一个创建对象的抽象方法，由子类决定要实例化的类。将对象的实例化推迟到子类上。
 
 **工厂方法模式需求UML类图**
-![factoryMethod](src/main/resources/UML/factoryMethod.png)
 
+![factoryMethod](src/main/resources/UML/factoryMethod.png)
 
 ##### 6、原型模式(Prototype Pattern)
 
@@ -128,6 +131,7 @@ eg: AOP底层代理模式
 > 创建新的对象比较复杂，可以利用原型模式简化对象创建过程。动态地获得对象运行时的状态。
 
 **原型模式需求UML类图**
+
 ![prototype](src/main/resources/UML/prototype.png)
 
 **两个概念**
@@ -144,6 +148,7 @@ eg: AOP底层代理模式
 > 模板方法的钩子方法：在模板方法的父类中，定义一个方法，默认不做任何事，子类可以视情况要不要覆盖。
 
 **模板方法模式需求UML类图**
+
 ![templateMethod](src/main/resources/UML/templateMethod.png)
 
 eg: RedisTemplate、JDBCTemplate模板方法模式
@@ -151,6 +156,7 @@ eg: RedisTemplate、JDBCTemplate模板方法模式
 > 
 
 **IoC源码应用模板方法模式**
+
 ![IoC-templateMethod](src/main/resources/UML/IoC-templateMethod.png)
 
 > 基本思想：算法只存在一个地方(父类中)，易于修改。实现代码最大化的代码复用。父类的模板方法和已实现的某些步骤被子类继承而直接使用。
@@ -168,9 +174,11 @@ eg: RedisTemplate、JDBCTemplate模板方法模式
 > 构成：Product(产品)、Builder(抽象建造者)、ConcreteBuilder(具体建造者)、Director(指挥者)
 
 **建造者模式需求UML类图**
+
 ![builder](src/main/resources/UML/builder.png)
 
 **StringBuilder源码应用建造者模式**
+
 ![StringBuilder](src/main/resources/UML/StringBuilder.png)
 
 ##### 10、观察者模式(Observer Pattern)
@@ -180,6 +188,7 @@ eg: RedisTemplate、JDBCTemplate模板方法模式
 > 通知调用Observer对象的update方法就会更新。
 
 **观察者模式需求UML类图**
+
 ![observer](src/main/resources/UML/observer.png)
 
 eg: Zookeeper监听器观察者模式
@@ -187,11 +196,13 @@ eg: Zookeeper监听器观察者模式
 > 
 
 **jdk应用Observale源码类图**
+
 ![Observable](src/main/resources/UML/Observable.png)
 
 ##### 11、抽象工厂模式(Abstract Factory Pattern)
 
 **抽象工厂模式需求UML类图**
+
 ![AbstractFactory](src/main/resources/UML/AbstractFactory.png)
 
 > 在设计层面抽象工厂接口和具体实现的工厂子类，让单个简单工厂变成工厂簇
@@ -207,14 +218,17 @@ eg: Zookeeper监听器观察者模式
 > 在用户角度看不到被适配者，从用户反馈感觉只和目标接口交互。
 
 **类适配器需求UML类图**
+
 ![ClassAdpater](src/main/resources/UML/ClassAdpater.png)
 
 **对象适配器需求UML类图**
+
 ![ObjectAdapter](src/main/resources/UML/ObjectAdapter.png)
 
 > 解决了用组合替代继承，符合了合成复用的原则。
 
 **接口适配器需求UML类图**
+
 ![InterfaceAdapter](src/main/resources/UML/InterfaceAdapter.png)
 
 > 当某个类不需要实现全部接口方法，抽象类的子类可以选择的覆盖父类的某些方法。
@@ -233,9 +247,11 @@ eg: Zookeeper监听器观察者模式
 > Composite: 非叶子节点，存储子部件，实现子部件
 
 **组合模式需求UML类图**
+
 ![composite](src/main/resources/UML/composite.png)
 
 **HashMap应用源码类图**
+
 ![composite-hashmap](src/main/resources/UML/composite-hashmap.png)
 
 ##### 16、迭代器模式(Iterator Pattern)
@@ -290,6 +306,7 @@ eg: 线程池单例模式
 > 每一个接收者包含对另一个接收者的引用。
 
 **职责链模式需求UML类图**
+
 ![responsibility](src/main/resources/UML/responsibility.png)
 
 eg: 微服务网关鉴权责任链模式
@@ -297,6 +314,7 @@ eg: 微服务网关鉴权责任链模式
 > 
 
 **实际项目中采购业务根据业务流程图完成类图及编码**
+
 ![采购业务](src/main/resources/UML/采购业务.png)
 
 ##### 21、中介者模式(Mediator Pattern)
